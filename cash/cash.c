@@ -38,12 +38,9 @@ int main(void)
 int get_cents(void)
 {
     int cents = get_int("cents owned: ");
+    return cents;
     {
-        if (cents >= 0)
-            return cents;
-        else
-        printf("hello world");
-
+        while (cents < 0)
             return get_cents();
     }
 
