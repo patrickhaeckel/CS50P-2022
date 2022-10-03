@@ -41,15 +41,16 @@ int get_cents(void)
     cents = get_int("cents owned: ");
     {
         if (cents < 0)
-        return cents;
         {
-            else
-            return 0;
+            return cents;
         }
+        else
+        {
+            return cents;
+        }
+
     }
 
-    while (cents < 0 );
-    return cents;
 }
 
 int calculate_quarters(int cents)
