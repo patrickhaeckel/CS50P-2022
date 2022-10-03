@@ -42,7 +42,7 @@ int get_cents(void)
     {
         if (cents < 0)
         {
-            return cents;
+            return get_cents();
         }
         else
         {
