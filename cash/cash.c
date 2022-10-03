@@ -40,10 +40,11 @@ int get_cents(void)
     int cents;
     cents = get_int("cents owned: ");
     {
-        if (cents < 0)
-            return get_cents();
+        if (cents >= 0)
+            return cents;
         else
-            printf("Hello world");
+        printf("hello world") /n;
+            return get_cents();
     }
 
 }
