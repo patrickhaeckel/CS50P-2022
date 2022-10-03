@@ -39,10 +39,10 @@ int get_cents(void)
 {
     int cents = get_int("cents owned: ");
     return cents;
-    {
-        while (cents < 0)
-            return get_cents();
-    }
+
+        if(cents < 0)
+        return get_cents();
+
 
 }
 
