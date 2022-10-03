@@ -37,7 +37,8 @@ int main(void)
 
 int get_cents(void)
 {
-    int cents = get_int("cents owned: ");
+    int cents;
+    cents = get_int("cents owned: ");
     return cents;
 
         if(cents < 0)
