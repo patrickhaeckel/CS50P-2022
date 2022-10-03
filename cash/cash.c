@@ -37,13 +37,13 @@ int main(void)
 
 int get_cents(void)
 {
-    int cents;
-    cents = get_int("cents owned: ");
+    int cents = get_int("cents owned: ");
     {
         if (cents >= 0)
             return cents;
         else
-        printf("hello world"\n);
+        printf("hello world");
+
             return get_cents();
     }
 
