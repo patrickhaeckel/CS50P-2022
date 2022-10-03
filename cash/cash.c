@@ -46,7 +46,7 @@ int get_cents(void)
 
 }
 
-int calculate_quarters(int cents)
+int calculate_quarters(cents)
 {
     int quarters = 0;
     while (cents >= 25)
@@ -57,7 +57,7 @@ int calculate_quarters(int cents)
     return quarters;
 }
 
-int calculate_dimes(int cents)
+int calculate_dimes(cents)
 {
     int dimes = 0;
     while (cents >= 10)
@@ -68,7 +68,7 @@ int calculate_dimes(int cents)
     return dimes;
 }
 
-int calculate_nickels(int cents)
+int calculate_nickels(cents)
 {
     int nickels = 0;
     while (cents >= 5)
@@ -79,7 +79,7 @@ int calculate_nickels(int cents)
     return nickels;
 }
 
-int calculate_pennies(int cents)
+int calculate_pennies(cents)
 {
     int pennies = 0;
     while (cents >= 1)
