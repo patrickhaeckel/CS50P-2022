@@ -43,7 +43,7 @@ int get_cents(void)
         if (cents < 0)
             return get_cents();
         else
-            printf("Hello world")
+            printf("Hello world");
     }
 
 }
