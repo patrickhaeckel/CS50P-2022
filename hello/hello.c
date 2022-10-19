@@ -7,5 +7,5 @@ int main(void)
 }
 
 {
-x = get_int("whats your name? " )
+    x = get_string ("whats your name? " );
 }
