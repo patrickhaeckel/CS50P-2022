@@ -5,3 +5,7 @@ int main(void)
 {
     printf("hello, world\n");
 }
+
+{
+x = get_int("whats your name? " )
+}
