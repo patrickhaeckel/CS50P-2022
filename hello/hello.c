@@ -5,7 +5,3 @@ int main(void)
 {
     printf("hello, world\n");
 }
-
-{
-    x = get_string ("whats your name? " );
-}
