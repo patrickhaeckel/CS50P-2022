@@ -4,7 +4,7 @@
 int main(void)
 {
     // TODO: Prompt for start size and end size
-    int n int e int y;
+    int n; int e;
     do
     {
         n = get_int("Enter start size ");
@@ -18,9 +18,10 @@ int main(void)
     do
     {
     n = n + (n/3) - (n/4);
-    y++
+    y++;
     }
     while(n < e);
-
-    printf("number of years is %i" y);
+    {
+    printf("number of years is %i", y);
+    }
 }
