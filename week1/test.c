@@ -11,7 +11,6 @@ int main(void)
         e = get_int("Enter ending size ");
     }
     while ((n < 9) && (e <= n));
-    return 0;
 
     // TODO: Calculate number of years until we reach threshold
     int y = 0;
@@ -22,6 +21,6 @@ int main(void)
     }
     while(n < e);
     {
-    printf("number of years is %i", y);
+    printf("number of years is %i\n", y);
     }
 }
