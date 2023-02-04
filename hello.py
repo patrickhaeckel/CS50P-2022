@@ -1,2 +1,2 @@
-input("Whats your name? "), 
+name = input("Whats your name? "),
 name
