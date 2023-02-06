@@ -1,7 +1,6 @@
-def hello(to="world"):
-    print("hello,", to)
+def hello(test="world"):
+    print("hello")
 
-
-hello()
-name = input("whats your name? ")
-hello(name)
+print("hola")
+hello(test)
+print("2do hola")
