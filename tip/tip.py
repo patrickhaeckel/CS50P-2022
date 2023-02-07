@@ -6,10 +6,11 @@ def main():
 
 
 def dollars_to_float(d):
-    dollars = float(dollars)
+    dollars 
 
 
-
+def percent_to_float(p):
+    # TODO
 
 
 main()
