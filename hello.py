@@ -1,6 +1,6 @@
-def hello(test="world"):
+def hello(to="world"):
     print("hello")
 
 print("hola")
-hello()
+hello(test)
 print(test)
