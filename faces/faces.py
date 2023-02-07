@@ -1,8 +1,4 @@
 def main():
-    userinput = input(" ")
-    userinput = (userinput.replace(":)", (😐)))
+    userinput = input("").replace(":)", "🙂").replace(":(", "🙁")
     print(userinput)
-
-
-
 main()
