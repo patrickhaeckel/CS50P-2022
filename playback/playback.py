@@ -1,4 +1,4 @@
-userinput = input("type here ")
-print(userinput)
-userinput = .replace(" ", "...")
-print(userinput)
+def playback():
+    userinput = input("type here ").replace(" ", "...")
+    print(userinput)
+playback()
