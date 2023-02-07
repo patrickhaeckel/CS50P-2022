@@ -1,4 +1,4 @@
 userinput = input("type here ")
 print(userinput)
-userinput = mystring.replace(" ", "...")
+userinput = .replace(" ", "...")
 print(userinput)
