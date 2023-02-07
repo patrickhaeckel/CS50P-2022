@@ -1,2 +1,2 @@
 def main():
-    energy = int(input())
+    energy = int(input("")))
