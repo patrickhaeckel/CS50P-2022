@@ -1,6 +1,5 @@
-def hello(to="world"):
-    print("hello")
+def inputlower():
+    lower = input(" ")
 
+inputlower()
 print("hola")
-hello(test)
-print(test)
