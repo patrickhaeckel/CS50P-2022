@@ -1,5 +1,7 @@
 def inputlower():
-    lower = input(" ")
-
+    lower = input("")
+    print(lower)
+    print(lower).strip
 inputlower()
-print("hola")
+
+
