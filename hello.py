@@ -1,7 +1,6 @@
 def inputlower():
-    lower = input("")
+    lower = input("").upper().strip()
     print(lower)
-    print(lower.str.strip)
 inputlower()
 
 
