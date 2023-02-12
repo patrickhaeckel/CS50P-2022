@@ -1,6 +1,7 @@
 def main():
     q = (input("whos god? "))
-    if q == ("42"):
+    if q == ("42") | ("Forty Two") | ("forty-two"):
         print("Yes")
-    elif q
+    else:
+        
 main()
