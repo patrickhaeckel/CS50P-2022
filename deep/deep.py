@@ -1,10 +1,5 @@
 def main():
-    q = int(input("whos god? "))
-    p = 
-    if q == 42:
-        print("Yes")
-
-def estring()
-    elif q == ("fortytwo"):
+    q = (input("whos god? "))
+    if q == ("42"):
         print("Yes")
 main()
