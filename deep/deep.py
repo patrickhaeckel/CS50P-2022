@@ -1,5 +1,5 @@
 def main():
-    q = input("whos god? ").replace("-", " ").strip().upper().lower
+    q = input("whos god? ").replace("-", " ").strip().upper().lower()
     print (q)
     match q:
         case "42" | "forty two" | "FORTY TWO":
