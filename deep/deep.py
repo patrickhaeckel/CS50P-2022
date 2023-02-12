@@ -1,5 +1,5 @@
 def main():
-    q = input("whos god? ").title
+    q = (input("whos god? "))
     match q:
         case "42" | "Forty Two" | "forty-two":
             print("Yes")
