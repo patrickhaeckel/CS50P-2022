@@ -1,5 +1,5 @@
 def main():
-    name = input("name of file? ").casefold().strip()
+    name = input("name of file? ").casefold().replace(" ", "")
     if (".gif") in name:
         print("image/gif")
     elif ("jpg") in name:
