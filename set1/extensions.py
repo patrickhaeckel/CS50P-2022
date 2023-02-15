@@ -1,18 +1,18 @@
 def main():
     name = input("name of file? ").casefold().replace(" ", "")
-    if (".gif") in name:
+    if name.endswith(".gif"):
         print("image/gif")
-    elif (".jpeg") in name:
+    elif name.endswith(".jpeg"):
         print("image/jpeg")
-    elif (".jpg") in name:
+    elif name.endswith(".jpg"):
         print("image/jpg")
-    elif (".png") in name:
+    elif name.endswith(".png"):
         print("image/png")
-    elif (".pdf") in name:
+    elif name.endswith(".pdf"):
         print("application/pdf")
-    elif (".txt") in name:
+    elif name.endswith(".txt"):
         print("text/plain")
-    elif (".zip") in name:
+    elif name.endswith(".zip"):
         print("application/zip")
     else:
         print("application/octet-stream")
