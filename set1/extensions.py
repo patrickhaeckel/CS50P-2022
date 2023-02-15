@@ -1,7 +1,6 @@
 def main():
     name = input("name of file? ").casefold().strip()
-    if:
-        in name ".gif":
-            print("yes")
+    name.find (".gif")
+    print ("yes")
 main()
 
