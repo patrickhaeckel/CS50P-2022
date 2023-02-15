@@ -1,8 +1,20 @@
 def main():
     name = input("name of file? ").casefold().strip()
     if (".gif") in name:
-        print("")
+        print("image/gif")
     elif ("jpg") in name:
-        print("")
+        print("image/jpg")
+    elif ("jpeg") in name:
+        print("image/jpeg")
+    elif ("png") in name:
+        print("image/gif")
+    elif ("pdf") in name:
+        print("application/pdf")
+    elif ("txt") in name:
+        print("text/plain")
+    elif ("zip") in name:
+        print("application/zip")
+    else:
+        print("application/octet-stream")
 main()
 
