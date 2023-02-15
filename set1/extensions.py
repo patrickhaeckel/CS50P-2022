@@ -1,7 +1,7 @@
 def main():
     name = input("name of file? ").casefold().strip()
     match name:
-        .gif
+        case ".gif"
 
     if .gif in name:
         print
