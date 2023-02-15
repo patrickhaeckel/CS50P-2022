@@ -2,10 +2,10 @@ def main():
     name = input("name of file? ").casefold().replace(" ", "")
     if (".gif") in name:
         print("image/gif")
-    elif (".jpg") in name:
-        print("image/jpg")
     elif (".jpeg") in name:
         print("image/jpeg")
+    elif (".jpg") in name:
+        print("image/jpg")
     elif (".png") in name:
         print("image/png")
     elif (".pdf") in name:
