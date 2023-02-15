@@ -1,2 +1,4 @@
 def main():
-    name = ("name of file? ")
+    name = input("name of file? ").casefold().strip()
+    match name:
+        .gif
