@@ -5,7 +5,7 @@ def main():
     elif name.endswith(".jpeg"):
         print("image/jpeg")
     elif name.endswith(".jpg"):
-        print("image/jpg")
+        print("image/jpeg")
     elif name.endswith(".png"):
         print("image/png")
     elif name.endswith(".pdf"):
