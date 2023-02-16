@@ -7,6 +7,7 @@ def convert(time):
     hours, minutes = time
     hours = float(hours)
     minutes = float(minutes)
+    time = 
 
 main()
 
