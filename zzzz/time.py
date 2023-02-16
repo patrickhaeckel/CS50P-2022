@@ -5,8 +5,9 @@ def main():
     minutes = float(minutes)
     print(minutes)
 
-main()
 def convert(main):
-    output = (minutes/60) + (hours)
+    
     print(output)
+
+main()
 convert(main)
