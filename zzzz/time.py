@@ -4,8 +4,9 @@ def main():
     hours = float(hours)
     minutes = float(minutes)
     output = (minutes/60) + (hours)
+    output = float(output)
     print(output)
-    if output >= 4 <= 5:
+    if output >= 4 and output <= 5:
         print("breakfast time")
 main()
 
