@@ -1,7 +1,7 @@
 def main():
     suma = input("input your aritmetic expresion here ").split(" ")
-    x = suma
-    print(x)
+    x, y, z = suma
+    print(suma)
 
 
 main()
