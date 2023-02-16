@@ -6,5 +6,7 @@ def main():
     print(minutes)
 
 main()
-def convert():
-    output = minutes
+def convert(main):
+    output = (minutes/60) + (hours)
+    print(output)
+convert(main)
