@@ -7,3 +7,4 @@ def convert(time):
     output = (minutes/60) + (hours)
     print(output)
 main()
+convert(time)
