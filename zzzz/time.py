@@ -5,5 +5,4 @@ def main():
     minutes = float(minutes)
     output = (minutes/60) + (hours)
     print(output)
-
 main()
