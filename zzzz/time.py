@@ -3,8 +3,7 @@ def main():
     hours, minutes = time
     hours = float(hours)
     minutes = float(minutes)
+def convert(time):
     output = (minutes/60) + (hours)
     print(output)
 main()
-def times():
-    if output >=
