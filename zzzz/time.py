@@ -3,8 +3,9 @@ def main():
     hours, minutes = time
     hours = float(hours)
     minutes = float(minutes)
-def convert(time):
     output = (minutes/60) + (hours)
     print(output)
+    if output >= 4 <= 5:
+        print("breakfast time")
 main()
-convert(time)
+
