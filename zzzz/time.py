@@ -6,3 +6,5 @@ def main():
     output = (minutes/60) + (hours)
     print(output)
 main()
+def times():
+    if output >=
