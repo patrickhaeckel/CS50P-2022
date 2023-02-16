@@ -1,6 +1,6 @@
 def main():
-    x, y, z = input("input your aritmetic expresion here ").split(" ")
-    answer = (float(x), y, float(z))
+    x, y, z = (input("input your aritmetic expresion here ")).split(" ")
+    
     if y == "+":
         print((x + z)(answer))
     elif y == "/":
