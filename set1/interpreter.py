@@ -1,6 +1,7 @@
 def main():
     x, y, z = input("input your aritmetic expresion here ").split(" ")
-    answer = 
+    answer = (x+y+z)
+    print(answer)
 
 
 main()
