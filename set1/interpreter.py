@@ -1,8 +1,7 @@
 def main():
     suma = input("input your aritmetic expresion here ").split(" ")
-    x, y, z = suma(x, y, z)
-    print(suma)
+    x = suma
+    print(x)
 
-def operacion():
 
 main()
