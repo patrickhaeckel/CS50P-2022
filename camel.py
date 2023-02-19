@@ -1,4 +1,4 @@
-students = ("hermione", "harry", "ron"
+students = ["hermione", "harry", "ron"]
 
-for i in range (len(students)):
+for i in students:
     print(students)
