@@ -1,4 +1,4 @@
-listofelements = ["xxx", "yyy", "zzz"]
+dict = {xxx", "yyy", "zzz"]
 
 for i in range(len(listofelements)):
     print(listofelements[i])
