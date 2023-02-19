@@ -4,5 +4,5 @@ dict = {
        "zz": "zzz",
        }
 
-for i in range(len(listofelements)):
-    print(listofelements[i])
+for i in dict:
+    print(i )
