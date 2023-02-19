@@ -1,4 +1,4 @@
-students = ["hermione", "harry", "ron"]
+listofelements = ["x", "y", "z"]
 
-for i in range(len(students)):
-    print(students)
+for i in range(len(listofelements)):
+    print(listofelements)
