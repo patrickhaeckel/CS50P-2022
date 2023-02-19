@@ -5,4 +5,4 @@ dict = {
        }
 
 for i in dict:
-    print([i])
+    print()
