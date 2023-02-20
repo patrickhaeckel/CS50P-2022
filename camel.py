@@ -1,6 +1,7 @@
 def main():
-       camelcase = input("type variable ")
-       print(camelcase)
+       v = input("type variable ")
+       for i in v:
+              print(i)
 
 
 main()
