@@ -1,8 +1,6 @@
-dict = {
-       "xx": "xxx",
-       "yy": "yyy",
-       "zz": "zzz",
-       }
+def main():
+       camelcase = input("type variable ").split(" ")
+       print(camelcase)
 
-for i in dict:
-    print()
+
+main()
