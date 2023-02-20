@@ -1,5 +1,5 @@
 def main():
-       camelcase = input("type variable ").split(" ")
+       camelcase = input("type variable ").replace(" ")
        print(camelcase)
 
 
