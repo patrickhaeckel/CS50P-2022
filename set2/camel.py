@@ -1,6 +1,6 @@
 def main():
        v = input("type variable ")
-       for i in v:
+       for i in range(v):
               print([v], [2])
 
 
