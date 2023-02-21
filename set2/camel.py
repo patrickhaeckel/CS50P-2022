@@ -1,7 +1,7 @@
 def main():
-       v = input("type variable ")
+       v = input("type variable ").split()
        for i in v:
-              print(v [2])
+              print(v[2])
 
 
 main()
