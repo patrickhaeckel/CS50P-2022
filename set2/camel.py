@@ -1,5 +1,5 @@
 def main():
-       v = (1, 2, 3)
+       v = input("name of variable ")
        for i in v:
               print(v[0])
 
