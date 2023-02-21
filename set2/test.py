@@ -1,3 +1,14 @@
-v = (1, 2, 3, 4, 5)
-for i in range(2):
-    print (i, v [3])
+def main():
+    camelCase = input("camelCase: ")
+    print("snake_case: ", end="")
+    snake_case(camelCase)
+
+
+def snake_case(camelCase):
+    for letter in camelCase:
+        if letter.isupper():
+            print("_" + letter.lower(), end="")
+        else:
+            print(letter, end="")
+    print()
+main()
