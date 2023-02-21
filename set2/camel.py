@@ -2,6 +2,7 @@ def main():
        v = input("name of variable ").split()
        for i in v:
               print(i)
-       if v.isupper() True
+       if i.isupper():
+              print
 main()
 
