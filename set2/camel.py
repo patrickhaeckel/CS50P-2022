@@ -1,5 +1,5 @@
 def main():
-       v = input("type variable ")
+       v = (1, 2, 3)
        for i in v:
               print(v[2])
 
