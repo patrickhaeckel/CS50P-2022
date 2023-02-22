@@ -6,10 +6,6 @@ def main():
         coin = int(input("Insert a coin "))
         if coin in list:
             amountdue = amountdue - coin
-
-
-
-
-
+            print(amountdue)
 
 main()
