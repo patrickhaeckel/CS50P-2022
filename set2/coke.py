@@ -4,7 +4,8 @@ def main():
     print(f"amount due = {amountdue}")
     coin = int(input("Insert a coin "))
     amountdue = 50 - coin
-    
+    changeowed = 
+
 
 
 
