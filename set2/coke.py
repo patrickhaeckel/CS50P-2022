@@ -7,6 +7,7 @@ def main():
         if coin in list:
             amountdue = amountdue - coin
             print(amountdue)
-    
+    if amountdue < 0:
+        print(amountdue + amountdue+ amountdue)
 
 main()
