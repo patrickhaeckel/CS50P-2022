@@ -2,7 +2,7 @@ def main():
     list = [25, 10, 5]
     amountdue = 50
     while amountdue > 0:
-        print("Amount Due: , amountdue")
+        print("Amount Due: ", amountdue)
         coin = int(input("Insert a coin "))
         if coin in list:
             amountdue = amountdue - coin
