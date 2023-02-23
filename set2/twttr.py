@@ -1,7 +1,8 @@
 def main():
-    vocals = ("a", "e", "i", "o", "u", "A", "E", "I", "O", "U").split()
-    text = input("Your text here ").replace(vocals, "")
-    print(text)
+    vocals = ("a", "e", "i", "o", "u", "A", "E", "I", "O", "U")
+    text = input("Your text here ")
+    if text in vocals:
+        print(text).replace(vocals, "")
 
 main()
 
