@@ -1,3 +1,3 @@
 n = ("hola")
-for letter in n:
-    print(n)
+for letter in range(n):
+    print(letter)
