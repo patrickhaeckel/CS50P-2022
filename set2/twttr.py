@@ -3,7 +3,7 @@ def main():
     text = input("Your text here ")
     for i in vocals:
         text = text.replace(i, "")
-        print(text)
+    print(text)
 
 
 main()
