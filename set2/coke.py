@@ -4,7 +4,7 @@ def main():
     while amountdue > 0:
         print(f"amount due = {amountdue}")
         coin = int(input("Insert a coin "))
-        if coin in list:
+        if coin in range(51):
             amountdue = amountdue - coin
     if amountdue < 0:
         print("change owed ", (amountdue *(-1)))
