@@ -8,5 +8,7 @@ def main():
             amountdue = amountdue - coin
     if amountdue < 0:
         print("change owed ", (amountdue *(-1)))
+    elif amountdue == 0:
+        print("amountdue", amountdue)
 
 main()
