@@ -6,7 +6,6 @@ def main():
         coin = int(input("Insert a coin "))
         if coin in list:
             amountdue = amountdue - coin
-            print(amountdue)
     if amountdue < 0:
         print("change owed ", (amountdue *(-1)))
 
