@@ -7,6 +7,5 @@ while i < len(s):
         else:
             break
     i += 1
-else:
-    print("Si jala")
+print("Si jala")
 
