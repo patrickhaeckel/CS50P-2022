@@ -23,8 +23,8 @@ def is_valid(s):
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
-        else:
-            break
+            else:
+                break
         i += 1
 
 # No periods, spaces, or punctuation marks are allowed
