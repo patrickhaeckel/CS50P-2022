@@ -15,10 +15,11 @@ if s[0].isalpha() or s[1].isalpha():
 if len(s) < 2 or > 6:
     return false
 
-# Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would
-# be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’
+# Numbers cannot be used in the middle of a plate; they must come at the end.
+# For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable.
+# The first number used cannot be a ‘0’
 i = 0
-while s[i] == "0":
+
     if
 
 
