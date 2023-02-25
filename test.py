@@ -1,3 +1,6 @@
 s = input("type ")
-if s[0:1].isalpha() == False:
+i = 0
+while i < len(s):
+    if s in i == "0":
     print("nojala")
+i += 1
