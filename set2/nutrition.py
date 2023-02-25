@@ -6,5 +6,5 @@ d = {
     "Pear" : 100
     }
 i = input("type your fruit here ").title().replace(" ", "")
-if i in d:
+for d in d:
     print (d[i])
