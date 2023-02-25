@@ -20,7 +20,7 @@ if len(s) < 2 or > 6:
 # The first number used cannot be a ‘0’
 i = 0
 while i < len(s):
-    if i in s == "0":
+    if s in i == "0":
         return False
 
 
