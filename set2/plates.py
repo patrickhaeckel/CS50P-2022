@@ -19,8 +19,9 @@ if len(s) < 2 or > 6:
 # For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable.
 # The first number used cannot be a ‘0’
 i = 0
-
-    if
+while i < len(s):
+    if i in s == "0":
+        return False
 
 
 
