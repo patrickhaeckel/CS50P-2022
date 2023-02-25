@@ -17,6 +17,10 @@ if len(s) < 2 or > 6:
 
 # Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would
 # be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’
+i = 0
+while s[i] == "0":
+    return false
+    
 
 
 # No periods, spaces, or punctuation marks are allowed
