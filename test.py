@@ -1,3 +1,3 @@
 s = input("type ")
-if s[0].isalpha() or s[1].isalpha():
-    print("is alpha")
+if len(s) < 2 or len(s) > 6:
+    print("false")
