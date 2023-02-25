@@ -22,7 +22,7 @@ def is_valid(s):
     while (i) < len(s):
         if s[i].isalpha() == False:
             if s[i] == "0":
-                print("nojala")
+                return False
         else:
             break
         i += 1
