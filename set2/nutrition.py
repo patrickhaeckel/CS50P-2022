@@ -1,3 +1,3 @@
-d = {Apple : 130, Avocado : 50, Sweet Cherries : 100}
-i = input("type your fruit here ")
-for i in 
+d = {"Apple" : 130, "Avocado" : 50, "SweetCherries" : 100}
+i = input("type your fruit here ").replace(" ", "")
+print (d[i])
