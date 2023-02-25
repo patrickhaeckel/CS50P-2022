@@ -5,4 +5,3 @@ while i < len(s):
         print("nojala")
     else:
         break
-i += 1
