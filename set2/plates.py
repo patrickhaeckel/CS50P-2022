@@ -19,8 +19,8 @@ if len(s) < 2 or > 6:
 # be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’
 i = 0
 while s[i] == "0":
-    return false
-    
+    if
+
 
 
 # No periods, spaces, or punctuation marks are allowed
