@@ -1,3 +1,3 @@
 s = input("type ")
-if len(s) < 2 or len(s) > 6:
-    print("false")
+if s[0:1].isalpha() == False:
+    print("nojala")
