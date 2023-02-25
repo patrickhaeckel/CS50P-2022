@@ -1,3 +1,3 @@
 s = input("type ")
-if (s in range(2)).isalpha():
+if s[0].isalpha() or s[1].isalpha():
     print("is alpha")
