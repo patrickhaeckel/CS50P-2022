@@ -20,8 +20,12 @@ if len(s) < 2 or > 6:
 # The first number used cannot be a ‘0’
 i = 0
 while i < len(s):
-    if s in i == "0":
-        return False
+    if s[i].isalpha == False:
+        if s[i] == "0":
+            print("nojala")
+    else:
+        break
+i += 1
 
 
 
