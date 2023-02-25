@@ -1,3 +1,2 @@
-n = ("hola")
-for letter in range(n):
-    print(letter)
+s = input("type ")
+print (s[0:4])
