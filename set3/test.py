@@ -4,7 +4,7 @@ def main():
     if x > y:
         main()
     else:
-        _="."
+        _ ="."
 main()
 
 
