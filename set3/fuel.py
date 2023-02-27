@@ -2,16 +2,19 @@
 #  and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank
 
 def main():
-    f = input("type your fraction ").split("/")
-    x = int(f[0])
-    y = int(f[1])
-    z = round((x/y)*100)
-    if tooless(z):
-        print("E")
-    elif toomuch(z):
-        print("F")
-    else:
-        print(f"{z}% is in the tank")
+    while True:
+        try:
+            f = input("type your fraction ").split("/")
+            x = int(f[0])
+            y = int(f[1])
+            z = round((x/y)*100)
+            if tooless(z):
+                print("E")
+            elif toomuch(z):
+                print("F")
+            else:
+                print(f"{z}% is in the tank")
+        except ValueError:
 
 
 #  If, though, 1% or less remains, output E instead And if 99% or more remains, output F instead
