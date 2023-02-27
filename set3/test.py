@@ -5,7 +5,7 @@ def main():
         if x > y:
             print("yes")
     except(EOFError):
-        pass
+        print(end = "\n")
 main()
 
 
