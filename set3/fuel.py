@@ -10,11 +10,16 @@ def main():
     elif toomuch(z):
         print("F")
     else:
-    print(f"{z}% is in the tank")
+        print(f"{z}% is in the tank")
 
 
 #  If, though, 1% or less remains, output E instead And if 99% or more remains, output F instead
-
+def tooless(n):
+    if n <= 1:
+        return True
+def toomuch(n):
+    if n >= 99:
+        return True
 
 #  If, though, X or Y is not an integer, X is greater than Y, or Y is 0, instead prompt the user again.
 #  (It is not necessary for Y to be 4.)
