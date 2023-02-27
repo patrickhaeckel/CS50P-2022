@@ -5,6 +5,11 @@ def main():
     x = int(f[0])
     y = int(f[1])
     z = round(x/y)
+    if tooless(z):
+        print("E")
+    elif toomuch(z):
+        print("F")
+    else:
     print(f"{z}% is in the tank")
 
 
