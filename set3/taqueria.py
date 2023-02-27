@@ -6,7 +6,7 @@ def main():
             o = input("Order here ").title()
             if o in d:
                 current = (d[o])
-                print (current)
+                sum += current
         except EOFError:
             print(end = "\n")
             break
