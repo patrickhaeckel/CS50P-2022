@@ -15,6 +15,7 @@ def main():
                     print("F")
                 else:
                     print(f"{z}%")
+                break
         except (ValueError, ZeroDivisionError):
             _ = "."
 
