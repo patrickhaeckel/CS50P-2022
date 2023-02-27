@@ -8,7 +8,7 @@ def main():
             x = int(f[0])
             y = int(f[1])
             z = round((x/y)*100)
-            if x < y:
+            if x <= y:
                 if tooless(z):
                     print("E")
                 elif toomuch(z):
