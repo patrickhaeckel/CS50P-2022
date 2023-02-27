@@ -1,10 +1,11 @@
 #  Program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer
 def main():
     f = input("type your fraction ").split("/")
-    x = f[0]
-    y = f[1]
+    x = int(f[0])
+    y = int(f[1])
+    z = int(x/y)
 
-    print(x)
+    print(z)
 
 
 #  And then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank
