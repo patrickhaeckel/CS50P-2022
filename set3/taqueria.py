@@ -7,6 +7,7 @@ def main():
             if o in d:
                 print(d[o])
         except EOFError:
+            print(end = "\n")
             break
 
 main()
