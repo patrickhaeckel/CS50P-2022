@@ -7,7 +7,7 @@ def main():
             if o in d:
                 current = (d[o])
                 sum = int(current)
-                sum += current
+                sum = (sum + current)
                 print(sum)
 
         except EOFError:
