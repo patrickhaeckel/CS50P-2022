@@ -8,13 +8,13 @@ def main():
             x = int(f[0])
             y = int(f[1])
             z = round((x/y)*100)
-            if x > y
-            if tooless(z):
-                print("E")
-            elif toomuch(z):
-                print("F")
-            else:
-                print(f"{z}% is in the tank")
+            if x < y:
+                if tooless(z):
+                    print("E")
+                elif toomuch(z):
+                    print("F")
+                else:
+                    print(f"{z}% is in the tank")
         except (ValueError, ZeroDivisionError):
             print("retype your division ")
 
