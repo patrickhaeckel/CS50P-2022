@@ -7,8 +7,8 @@ def main():
             if o in d:
                 current = (d[o])
                 Total = int(current)
-                Total = (Total + current)
-                print(f"Total: $+{Total})
+            Total = (Total + current)
+                print(f"Total: ${Total}")
 
         except EOFError:
             print(end = "\n")
