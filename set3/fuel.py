@@ -20,8 +20,7 @@ def main():
                     print(f"{z}%")
                 break
         except (ValueError, ZeroDivisionError):
-            _ = "."
-
+            pass
 
 def tooless(n):
     if n <= 1:
