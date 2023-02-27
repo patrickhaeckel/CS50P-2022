@@ -3,7 +3,7 @@
 
 def main():
     while True:
-        try:
+        
             f = input("type your fraction ").split("/")
             x = int(f[0])
             y = int(f[1])
