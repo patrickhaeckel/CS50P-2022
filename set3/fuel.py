@@ -14,8 +14,8 @@ def main():
                 print("F")
             else:
                 print(f"{z}% is in the tank")
-        except ValueError:
-            ()
+        except (ValueError, ZeroDivisionError):
+            print(retype your division)
 
 
 #  If, though, 1% or less remains, output E instead And if 99% or more remains, output F instead
