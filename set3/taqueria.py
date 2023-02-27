@@ -7,7 +7,7 @@ def main():
             o = input("Item: ").title()
             if o in d:
                 Total = ((Total + (d[o])))
-                print("Total: $ " + "{:.2f}".format(Total))
+                print("Total: $" + "{:.2f}".format(Total))
 
         except EOFError:
             print(end = "\n")
