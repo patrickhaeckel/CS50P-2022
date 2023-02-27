@@ -14,7 +14,7 @@ def main():
                 elif toomuch(z):
                     print("F")
                 else:
-                    print(f"{z}% is in the tank")
+                    print(f"{z}%")
         except (ValueError, ZeroDivisionError):
             _ = "."
 
