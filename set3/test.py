@@ -6,6 +6,7 @@ def main():
             print("yes")
     except(EOFError):
         pass
+    
 main()
 
 
