@@ -6,9 +6,9 @@ def main():
             o = input("Order here ").title()
             if o in d:
                 current = (d[o])
-                Total = int(current)
-                Total = (Total + (d[o]))
-                print(f"Total: ${Total}")
+            Total = int(current)
+            Total = (Total + (d[o]))
+            print(f"Total: ${Total}")
 
         except EOFError:
             print(end = "\n")
