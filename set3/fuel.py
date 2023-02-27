@@ -4,7 +4,7 @@ def main():
     f = input("type your fraction ").split("/")
     x = int(f[0])
     y = int(f[1])
-    z = round(x/y)
+    z = round((x/y)*100)
     if tooless(z):
         print("E")
     elif toomuch(z):
