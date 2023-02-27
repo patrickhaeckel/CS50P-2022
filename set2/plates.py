@@ -23,9 +23,10 @@ def is_valid(s):
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
+            i += 1
         else:
             break
-        i += 1
+
 
 # No periods, spaces, or punctuation marks are allowed
 # noper = [".", " ", "!"]
