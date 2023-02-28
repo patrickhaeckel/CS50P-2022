@@ -6,9 +6,11 @@ while True:
             grocery[item] += 1
         else:
             grocery[item] = 1
+        print(grocery)
 
 
     except EOFError:
+        print(end = "\n")
         break
 
 
