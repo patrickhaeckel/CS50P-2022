@@ -4,3 +4,6 @@ while True:
     try:
         item = input("Item: ")
         dict = [item]
+    except:
+        break
+    print(dict)
