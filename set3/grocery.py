@@ -8,6 +8,6 @@ while True:
         else:
             dict[item] = 1
     except EOFError:
-        for n in dict:
+        for n in sorted(dict):
             print(dict[n], n, end = "\n")
-         break
+            break
