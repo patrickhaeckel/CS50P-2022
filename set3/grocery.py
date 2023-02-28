@@ -2,7 +2,7 @@
 dict = {}
 while True:
     try:
-        item = input("Item: ")
+        item = input(
         dict = [item]
     except:
         break
