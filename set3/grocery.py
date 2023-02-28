@@ -7,6 +7,7 @@ while True:
             dict[item] += 1
         else:
             dict[item] = 1
-    except:
+    except EOFError:
+        for key in dict:
+            print(dict[key])
         break
-    print(dict)
