@@ -1,2 +1,4 @@
-d = dict(input("here "))
-print(d)
+k = input("key ")
+v = input("value ")
+dict = {}
+print(dict)
