@@ -1,12 +1,10 @@
-dict = {}
+grocery = {}
 while True:
     try:
-        k = input("key ")
-        if k in dict:
-            
+        item = input("item ")
+        if item in grocery:
+            print(grocery)
 
-        dict = dict, {k}
-        print(dict)
     except:
         break
 
