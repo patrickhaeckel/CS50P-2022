@@ -2,4 +2,5 @@
 dict = {}
 while True:
     try:
-        dict = input("Item: " )
+        item = input("Item: ")
+        dict = 
