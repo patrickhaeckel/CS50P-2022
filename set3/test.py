@@ -1,5 +1,4 @@
 k = input("key ")
 v = input("value ")
-dict = {}
-print(dict[k])
+dict = {k:v}
 print(dict)
