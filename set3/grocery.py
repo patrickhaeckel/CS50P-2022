@@ -9,5 +9,5 @@ while True:
             dict[item] = 1
     except EOFError:
         for key in dict:
-            print(dict.keys())
+            print("\n", dict.keys())
         break
