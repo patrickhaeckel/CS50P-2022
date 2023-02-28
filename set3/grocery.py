@@ -2,12 +2,12 @@
 dict = {}
 while True:
     try:
-        item = input("Item ").lower().upper()
+        item = input("Item ").lower()
         if item in dict:
             dict[item] += 1
         else:
             dict[item] = 1
     except EOFError:
         for n in sorted(dict.keys()):
-            print(dict[n], n,)
+            print(dict[n], n.upper())
         break
