@@ -5,7 +5,7 @@ while True:
     try:
         k = input("key ")
         v = input("value ")
-        dict = dict, {k:v}
+        dict = dict, {k}
         print(dict)
     except:
         break
