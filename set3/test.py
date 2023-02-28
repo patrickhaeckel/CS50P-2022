@@ -4,7 +4,8 @@ dict = {k}
 while True:
     try:
         k = input("key ")
-        v = input("value ")
+        if k in d
+            
         dict = dict, {k}
         print(dict)
     except:
