@@ -10,4 +10,4 @@ while True:
     except EOFError:
         for n in dict:
             print(dict[n], n)
-    break
+            break
