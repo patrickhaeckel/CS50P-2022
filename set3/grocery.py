@@ -2,8 +2,12 @@
 dict = {}
 while True:
     try:
-        item = input(
-        dict = [item]
+        item = input("Item: ").lower()
+        if item in dict:
+            dict[item] += 1
+        else:
+            dict[item] = 1
     except:
         break
+    dict = dict.upper()
     print(dict)
