@@ -3,4 +3,4 @@ dict = {}
 while True:
     try:
         item = input("Item: ")
-        dict = []
+        dict = [item]
