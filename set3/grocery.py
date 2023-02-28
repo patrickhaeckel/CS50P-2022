@@ -9,5 +9,5 @@ while True:
             dict[item] = 1
     except EOFError:
         for n in sorted(dict.keys()):
-            print(dict[n], n, end = "\n")
-            break
+            print(dict[n], n)
+        break
