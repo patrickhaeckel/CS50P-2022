@@ -8,6 +8,6 @@ while True:
         else:
             dict[item] = 1
     except EOFError:
-        for key in dict:
-            print("\n", dict.keys())
+        for item in dict:
+            print(dict[key])
         break
