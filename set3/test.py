@@ -3,9 +3,9 @@ while True:
     try:
         item = input("item ")
         if item in grocery:
-            grocery[item] += 1
+            grocery[item] = "ya esta"
         else:
-            grocery[item] = 1
+            grocery[item] = "es nuevo"
         print(grocery)
 
 
