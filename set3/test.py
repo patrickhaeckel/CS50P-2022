@@ -7,5 +7,6 @@ while True:
         v = input("value ")
         print(dict)
     except:
-        pass
+        break
+
 
