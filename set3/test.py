@@ -1,7 +1,11 @@
-k = input("key ")
-v = input("value ")
+k = 0
+v = 0
 dict = {k:v}
 while True:
     try:
-        
-print(dict)
+        k = input("key ")
+        v = input("value ")
+        print(dict)
+    except:
+        pass
+
