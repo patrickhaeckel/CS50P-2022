@@ -1,6 +1,6 @@
 k = 0
 v = 0
-dict = {k:v}
+dict = {k}
 while True:
     try:
         k = input("key ")
