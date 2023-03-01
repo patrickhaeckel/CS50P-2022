@@ -1,4 +1,4 @@
-monts =[
+months =[
     "January",
     "February",
     "March",
