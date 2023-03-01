@@ -27,8 +27,7 @@ while True:
                     if "," in old_day:
                         day = old_day.replace(",", "")
                     else:
-                        print("que pedo")
-
+                        break
             if (int(month) >= 1 and int(month) <= 12) and (int(day) >=1 and int(day) <= 31):
                 break
         except:
