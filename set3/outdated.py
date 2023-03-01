@@ -1,4 +1,4 @@
-dict =[
+monts =[
     "January",
     "February",
     "March",
@@ -13,4 +13,5 @@ dict =[
     "December"
     ]
 while True:
-    
+    date = input("Date: ")
+    try:
