@@ -15,4 +15,6 @@ monts =[
 while True:
     date = input("Date: ")
     try:
-        month, day, year = 
+        month, day, year = date.split("/")
+        if int(month) >= 1 and <= 12
+            
