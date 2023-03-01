@@ -25,5 +25,6 @@ while True:
                 if old_month == months[i]:
                     month = i + 1
             day = old_day.replace(",", "")
+            if in()
 
 
