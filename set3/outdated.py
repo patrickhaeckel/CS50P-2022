@@ -24,7 +24,10 @@ while True:
             for i in range(len(months)):
                 if old_month == months[i]:
                     month = i + 1
-                day = old_day.replace(",", "")
+                    if "," in old_day:
+                        day = old_day.replace(",", "")
+                    else:
+                        print("que pedo")
 
             if (int(month) >= 1 and int(month) <= 12) and (int(day) >=1 and int(day) <= 31):
                 break
