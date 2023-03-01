@@ -35,6 +35,7 @@ while True:
             month = "0" + month
         if day < 10:
             day = "0" + day
-print(f"{})
+print(f"{year}-{month:02}-{day:02}")
+
 
 
