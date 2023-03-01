@@ -29,7 +29,7 @@ while True:
                 break
         except:
             print()
-            break
+            pass
 
 print(f"{year}-{int(month):02}-{int(day):02}")
 
