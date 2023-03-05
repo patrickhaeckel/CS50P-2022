@@ -1,3 +1,5 @@
-print(emoji.emojize(language=
+import emoji
 
-print(:thumbsup:)
+print(emoji.emojize(":thumsup:"))
+
+
