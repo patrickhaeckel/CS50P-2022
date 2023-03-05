@@ -1,7 +1,7 @@
 from pyfiglet import Figlet
 from random import shuffle
 import sys
-fonts = ["-f slant", "-f rectangles", "-f alphabet"]
+fonts = ["slant", "rectangles", "alphabet"]
 text = input("Text here ")
 font = Figlet(font="doh")
 if len(sys.argv) == 2:
