@@ -1,4 +1,4 @@
 import emoji
-print(emoji.emojize(:thumbsup:))
+Input = input("Input", (emoji.emojize("")))
 
 
