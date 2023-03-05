@@ -1,3 +1,3 @@
-emoji.emojize(language=
+print(emoji.emojize(language=
 
 print(:thumbsup:)
