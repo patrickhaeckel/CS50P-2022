@@ -1,7 +1,7 @@
 from pyfiglet import Figlet
 from random import shuffle
 import sys
-print(Figlet.getFonts())
+fonts = Figlet.getFonts(figlet.org/examples.html.)
 print(i)
 text = input("Text here ")
 if len(sys.argv) == 2:
