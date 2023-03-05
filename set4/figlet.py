@@ -1,3 +1,4 @@
+import requests
 from pyfiglet import Figlet
 from random import shuffle
 import sys
