@@ -1,7 +1,6 @@
 from pyfiglet import Figlet
 from random import shuffle
 import sys
-
 text = input("Text here ")
 if len(sys.argv) == 3:
     font = Figlet(font=sys.argv[2])
