@@ -9,7 +9,7 @@ if len(sys.argv) == 2:
     print(font.renderText(f"{text}"))
 elif len(sys.argv) == 1:
     shuffle(fonts)
-    font = fonts[1]
+    font = Figlet(fonts[1])
     print(font.renderText(f"{text}"))
 
 
