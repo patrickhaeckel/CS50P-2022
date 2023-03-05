@@ -8,8 +8,7 @@ if len(sys.argv) == 2:
     font = Figlet(font="doh")
     print(font.renderText(f"{text}"))
 elif len(sys.argv) == 1:
-    font = fonts
-    shuffle(fonts)
+    font = shuffle(fonts)
     print(font.renderText(f"{text}"))
 
 
