@@ -1,4 +1,4 @@
 from pyfiglet import Figlet
+inp = input()
 font = Figlet(font="doh")
-inp = input(" ")
 print(font.renderText(f"{inp}"))
