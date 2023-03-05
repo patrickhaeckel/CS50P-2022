@@ -1,8 +1,6 @@
 from pyfiglet import Figlet
 from random import shuffle
 import sys
-fonts = Figlet.getFonts(figlet.org/examples.html.)
-print()
 text = input("Text here ")
 if len(sys.argv) == 2:
     font = Figlet(font="doh")
