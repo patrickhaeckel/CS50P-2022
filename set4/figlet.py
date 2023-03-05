@@ -1,5 +1,3 @@
 from pyfiglet import Figlet
-figlet = Figlet()
-figlet.getFonts()
-figlet.setFont(font=doh)
-print(figlet.renderText(s))
+font = Figlet(font="doh")
+print (font.renderText("text to render"))
