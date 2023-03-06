@@ -20,6 +20,6 @@ while True:
             print(font.renderText(f"{text}"))
             sys.exit()
     else:
-        _ = "."
+        sys.exit()
 
 
