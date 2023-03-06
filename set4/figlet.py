@@ -21,7 +21,5 @@ while True:
             font = Figlet(fonts[1])
             print(font.renderText(f"{text}"))
             sys.exit()
-    else:
-        sys.exit(print("invalid usage"))
-
+   
 
