@@ -1,9 +1,8 @@
 from pyfiglet import Figlet
 from random import shuffle
 import sys
-
+text = input("Text here ")
 while True:
-    text = input("Text here ")
     if len(sys.argv) == 3:
         if sys.argv[1] != "-f":
             sys.exit(print("Invalid usage"))
@@ -21,5 +20,5 @@ while True:
             font = Figlet(fonts[1])
             print(font.renderText(f"{text}"))
             sys.exit()
-   
+
 
