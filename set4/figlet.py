@@ -5,7 +5,7 @@ text = input("Text here ")
 if len(sys.argv) == 3:
     font = Figlet(font=sys.argv[2])
     print(font.renderText(f"{text}"))
-    if (sys.argv[1]) !=
+    if (sys.argv[1])
 elif len(sys.argv) == 1:
     fonts = ["slant", "rectangles", "alphabet"]
     shuffle(fonts)
