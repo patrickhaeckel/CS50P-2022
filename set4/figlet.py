@@ -6,9 +6,9 @@ while True:
     text = input("Text here ")
     if len(sys.argv) == 3:
         if sys.argv[1] != "-f":
-            sys.exit()
+            sys.exit(print("Invalid usage"))
         elif sys.argv[1] != "--font":
-            sys.exit()
+            sys.exit(print("Invalid usage"))
     elif len(sys.argv) == 3:
         if sys.argv[1] == "-f" or sys.argv[1] == "--font":
             font = Figlet(font=sys.argv[2])
