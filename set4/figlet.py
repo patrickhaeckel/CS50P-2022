@@ -2,7 +2,9 @@ from pyfiglet import Figlet
 from random import shuffle
 import sys
 text = input("Text here ")
-if len(sys.argv) == 3:
+if sys.argv[2] != "--f" or sys.argv[2] != "--font":
+    sys.exit()
+len(sys.argv) == 3:
     font = Figlet(font=sys.argv[2])
     print(font.renderText(f"{text}"))
     if (sys.argv[1])
