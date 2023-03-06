@@ -18,6 +18,7 @@ while True:
             shuffle(fonts)
             font = Figlet(fonts[1])
             print(font.renderText(f"{text}"))
+            sys.exit()
     else:
         _ = "."
 
