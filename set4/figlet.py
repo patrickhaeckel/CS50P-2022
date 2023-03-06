@@ -1,3 +1,6 @@
+from pyfiglet import Figle
+
+
 # list of fonts
 
 fonts = figlet.getFonts()
