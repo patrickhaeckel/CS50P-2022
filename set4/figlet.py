@@ -3,7 +3,9 @@ from random import shuffle
 import sys
 text = input("Text here ")
 while True:
-    len(sys.argv) == 2 and
+    len(sys.argv) == 2
+    sys.argv[1] == "-f"
+    sys.argv[1] == "--font"
         if sys.argv[1] == "-f" or sys.argv[1] == "--font":
             font = Figlet(font=sys.argv[2])
             print(font.renderText(f"{text}"))
