@@ -10,7 +10,10 @@ while True:
         elif sys.argv[1] != "--font":
             sys.exit(print("Invalid usage"))
     elif len(sys.argv) == 3:
-        if sys.argv[1] == "-f" or sys.argv[1] == "--font":
+        if sys.argv[1] == "-f":
+            font = Figlet(font=sys.argv[2])
+            print(font.renderText(f"{text}"))
+        elif sys.argv[1] == "--font":
             font = Figlet(font=sys.argv[2])
             print(font.renderText(f"{text}"))
     elif len(sys.argv) == 1:
