@@ -15,6 +15,8 @@ while True:
         print(font.renderText(f"{text}"))
     else:
         sys.exit(print("Invalid usage"))
+        break
+    
 
 
 
