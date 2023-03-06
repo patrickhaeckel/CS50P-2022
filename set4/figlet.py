@@ -1,5 +1,7 @@
-from pyfiglet import Figle
-
+from pyfiglet import Figlet
+import sys
+import random
+figlet = Figlet()
 
 # list of fonts
 
