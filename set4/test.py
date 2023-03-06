@@ -13,11 +13,10 @@ elif len(sys.argv) == 1:
     shuffle(fonts)
     font = Figlet(fonts[1])
     print(font.renderText(f"{text}"))
-
 else:
     print("Invalid usage")
     sys.exit()
-    
+
 
 
 
