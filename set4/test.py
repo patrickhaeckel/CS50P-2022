@@ -1,7 +1,7 @@
 from pyfiglet import Figlet
 from random import shuffle
 import sys
-while True
+while True:
     text = input("Text here ")
     if len(sys.argv) == 3 and (sys.argv[1] == "-f" or sys.argv[1] == "--font":):
         font = Figlet(font=sys.argv[2])
@@ -14,7 +14,7 @@ while True
         font = Figlet(fonts[1])
         print(font.renderText(f"{text}"))
     else:
-        sys.exit()
+        sys.exit(print("Invalid usage"))
 
 
 
