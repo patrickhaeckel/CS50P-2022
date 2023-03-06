@@ -1,24 +1,22 @@
 from pyfiglet import Figlet
-from random import shuffle
 import sys
-text = input("Text here ")
-if len(sys.argv) == 3 and (sys.argv[1] == "-f" or sys.argv[1] == "--font"):
-    font = Figlet(font=sys.argv[2])
-    print(font.renderText(f"{text}"))
-elif len(sys.argv) == 3 and (sys.argv[1] != "-f" or sys.argv[1] != "--font"):
-        sys.exit(print("Invalid usage"))
-elif len(sys.argv) == 1:
-    fonts = ["slant", "rectangles", "alphabet"]
-    shuffle(fonts)
-    font = Figlet(fonts[1])
-    print(font.renderText(f"{text}"))
+import random
+figlet = Figlet()
+
+# list of fonts
+
+fonts = figlet.getFonts()
+
+if len(sys.argv) == 1: figlet.setFont(font=random.choice(fonts))
+
+elif len(sys.argv) == 3 and (sys.argv[1] == "-f" or sys.argv[1] == "--font"):
+    figlet.setFont(font=sys.argv[2])
+
 else:
-     sys.exit(print("Invalid usage"))
+    sys.exit("Invalid usage")
 
+text = input("Input: ")
 
+print(figlet.renderText(text))
 
-
-
-
-
-
+# sys.argv [".\figlet.py", "-f", "slant"]
