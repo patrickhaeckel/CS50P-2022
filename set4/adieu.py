@@ -3,7 +3,7 @@ name = []
 while True:
         try:
             name = input("Names here ")
-            for i in len(name:
+            for i in range(name):
                 print(name[i])
         except EOFError:
             print(name)
