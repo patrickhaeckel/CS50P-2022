@@ -1,4 +1,14 @@
-inp = int(input("here "))
-if inp < 10:
-    print("yes")
-else: print("no")
+import random
+def main():
+    if level >= 1 and level <= 10:
+            guess = int(input("Guess: "))
+            if guess > n:
+                print("Too large!")
+            elif guess < n:
+                print("Too small!")
+            else:
+                print("Just right!")
+                break
+def otra()
+    level = int(input("Level: "))
+    n = random.randint(1, level)
