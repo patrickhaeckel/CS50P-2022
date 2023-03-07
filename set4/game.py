@@ -1,7 +1,7 @@
 import random
 def main():
     level = input("Level: ")
-    if level.isdigit():
+    if level.isdigit() and level >= 1 and level <= 10:
         level = int(level)
         n = random.randint(1, level)
     else: main()
