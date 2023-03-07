@@ -5,8 +5,10 @@ while True:
         name = input()
         data.append(name)
     except EOFError:
-        for n in data:
-            print("\n" + n)
+        break
+    for n in data:
+        print(n)
+
 
 
 
