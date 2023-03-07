@@ -1,4 +1,4 @@
-input = int(input("here "))
-if input.isdigit(1,10):
-    print(yes)
-else: print(no)
+inp = int(input("here "))
+if inp < 10:
+    print("yes")
+else: print("no")
