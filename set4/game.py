@@ -7,22 +7,20 @@ def main():
                 n = random.randint(1, level)
         except ValueError:
             main()
+        try:
+            if level >= 1 and level <= 10:
+                guess = int(input("Guess: "))
+                if guess > n:
+                    print("Too large!")
+                elif guess < n:
+                    print("Too small!")
+                else:
+                    print("Just right!")
+                    break
+            else:
+                continue
+        except ValueError:
+            print("hubo error")
+            break
 
-                while True:
-                    try:
-                        if level >= 1 and level <= 10:
-                            guess = int(input("Guess: "))
-                            if guess > n:
-                                print("Too large!")
-                            elif guess < n:
-                                print("Too small!")
-                            else:
-                                print("Just right!")
-                                break
-                        else:
-                            continue
-                    except ValueError:
-                        print("hubo error")
-                        break
-    main()
-
+main()
