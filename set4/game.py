@@ -1,13 +1,10 @@
 import random
-while True:
-    level = int(input("Level: "))
-    if level >= 1 and level <= 10:
-        n = random.randint(1, level)
-        continue
+level = int(input("Level: "))
+if level >= 1 and level <= 10:
+    n = random.randint(1, level)
     else:
         break
 while True:
-    level = level
     try:
         if level >= 1 and level <= 10:
             guess = int(input("Guess: "))
