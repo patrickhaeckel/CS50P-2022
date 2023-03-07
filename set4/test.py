@@ -7,14 +7,18 @@ def main():
         except ValueError:
             main()
 def otra(level):
-    if level >= 1 and level <= 10:
-            n = random.randint(1, level)
-            guess = int(input("Guess: "))
-            if guess > n:
-                print("Too large!")
-            elif guess < n:
-                print("Too small!")
-            else:
-                print("Just right!")
+    while True:
+        if level >= 1 and level <= 10:
+                n = random.randint(1, level)
+                guess = int(input("Guess: "))
+                if guess > n:
+                    print("Too large!")
+                    otra(level)
+                elif guess < n:
+                    print("Too small!")
+                    otra(level)
+                else:
+                    print("Just right!")
+                    break
 
 main()
