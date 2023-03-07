@@ -8,7 +8,7 @@ while True:
         break
 print("")
 for n in data:
-    print(n)
+    print("adieu, adieu to "+(p.join(n)))
 
 
 
