@@ -2,7 +2,6 @@
 while True:
         try:
         name = input("Names here ")
-        dict = name
         if name in dict:
             print(dict[name])
         except EOFError:
