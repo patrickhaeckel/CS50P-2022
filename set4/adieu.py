@@ -2,7 +2,7 @@
 data = []
 while True:
     try:
-        name = input()
+        name = input("Name here ")
         data.append(name)
     except EOFError:
         break
