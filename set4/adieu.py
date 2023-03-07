@@ -4,7 +4,7 @@ p = inflect.engine()
 data = []
 while True:
     try:
-        name = input("Name here ")
+        name = input("Name: ")
         data.append(name)
         mylist = p.join(data)
     except EOFError:
