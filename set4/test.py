@@ -3,8 +3,7 @@ def main():
     while True:
         try:
             level = int(input("Level: "))
-            if level >= 1 and level <= 10:
-                otra(level)
+            otra(level)
         except ValueError:
             main()
 def otra(level):
