@@ -5,12 +5,11 @@ data = []
 while True:
     try:
         name = input("Name here ")
-        data = (data)
-        data.append(name + ",")
+        data.append(name)
+        data = p.join(data)
     except EOFError:
         break
 print("")
-p.join(data)
 for n in data:
     print(n)
 
