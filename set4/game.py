@@ -1,7 +1,7 @@
 import random
 while True:
+    level = int(input("Level: "))
     try:
-        level = int(input("Level: "))
         if level >= 1 and level <=10:
             n = random.randint(1, level)
             guess = int(input("Guess: "))
@@ -14,5 +14,6 @@ while True:
                 break
 
     except(ValueError):
-        print(level, guess)
+        print("hubo error")
+        break
 
