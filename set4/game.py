@@ -2,6 +2,7 @@ import random
 def main():
     level = input("Level: ")
     if level.isdigit():
+        level = int(level)
         n = random.randint(1, level)
     else: main()
     while True:
