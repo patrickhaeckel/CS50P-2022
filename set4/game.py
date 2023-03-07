@@ -18,6 +18,6 @@ while True:
             print("Just right!")
             break
     except:
-        break
+        pass
 
 
