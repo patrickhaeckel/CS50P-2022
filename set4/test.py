@@ -1,7 +1,6 @@
 import random
 import sys
-def main():
-    while True:
+while True:
         try:
             level = int(input("Level: "))
             n = random.randint(1, level)
