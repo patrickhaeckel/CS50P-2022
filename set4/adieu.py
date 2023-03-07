@@ -6,6 +6,5 @@ while True:
             for i in dict:
                 print(dict[i])
         except EOFError:
-
             break
 
