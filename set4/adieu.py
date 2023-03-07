@@ -8,8 +8,7 @@ while True:
         break
 print("")
 for n in data:
-    p.join(n)
-    print(n)
+    print(n).split(",")
 
 
 
