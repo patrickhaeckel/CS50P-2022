@@ -7,7 +7,6 @@ while True:
             break
     except:
         pass
-
 while True:
     try:
         if level >= 1 and level <= 10:
@@ -19,7 +18,7 @@ while True:
             else:
                 print("Just right!")
                 break
-    except (ValueError, EOFError):
+    except:
         break
 
 
