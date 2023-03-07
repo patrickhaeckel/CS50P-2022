@@ -6,12 +6,12 @@ while True:
     try:
         name = input("Name here ")
         data.append(name)
-        data = p.join(data)
+        mylist = p.join(data)
     except EOFError:
         break
 print("")
-for n in data:
-    print(n)
+for n in mylist:
+    print(n, end="")
 
 
 
