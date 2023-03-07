@@ -6,6 +6,7 @@ while True:
             for i in name:
                 print(name)
         except EOFError:
-
+            print(name)
             break
+
 
