@@ -3,6 +3,7 @@ dict = {}
 while True:
         try:
             name = input("Names here ")
+            dict = dict[name]
             for i in dict:
                 print(dict[i])
         except EOFError:
