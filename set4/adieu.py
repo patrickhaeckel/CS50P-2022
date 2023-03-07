@@ -10,8 +10,7 @@ while True:
     except EOFError:
         break
 print("")
-for n in mylist:
-    print(n, end="")
+print(mylist)
 
 
 
