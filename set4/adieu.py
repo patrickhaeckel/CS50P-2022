@@ -2,5 +2,5 @@
 names = {}
 while True:
     name = input("Names here ")
-    print("\n")
+    print("")
     print(names)
