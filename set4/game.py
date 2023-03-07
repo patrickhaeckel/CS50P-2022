@@ -12,6 +12,7 @@ while True:
             else:
                 print("Just right!")
                 break
+            break
 
     except ValueError:
         print("hubo error")
