@@ -3,8 +3,9 @@ dict = {}
 while True:
         try:
             name = input("Names here ")
-        except EOFError:
             for i in dict:
                 print(dict[i])
+        except EOFError:
+
             break
 
