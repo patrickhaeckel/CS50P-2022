@@ -1,10 +1,9 @@
 import random
 def main():
-    main()
     level = input("Level: ")
     n = random.randint(1, level)
     if level.isdigit():
-        - 
+        _ == "."
     else: main()
     while True:
         try:
@@ -22,4 +21,5 @@ def main():
         except ValueError:
             print("hubo error")
             break
+main()
 
