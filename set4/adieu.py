@@ -3,12 +3,12 @@ data = []
 while True:
     try:
         name = input("Name here ")
-        data.append(name)
+        data.append(name + ",")
     except EOFError:
         break
 print("")
 for n in data:
-    print(n).split(",")
+    print(n)
 
 
 
