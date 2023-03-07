@@ -3,6 +3,7 @@ data = []
 while True:
     try:
         name = input("Name here ")
+        data = (data)
         data.append(name + ",")
     except EOFError:
         break
