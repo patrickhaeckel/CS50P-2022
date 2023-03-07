@@ -1,9 +1,8 @@
 import random
 def main():
     level = input("Level: ")
-    n = random.randint(1, level)
     if level.isdigit():
-        _ == "."
+        n = random.randint(1, level)
     else: main()
     while True:
         try:
