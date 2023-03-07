@@ -4,7 +4,7 @@ while True:
         try:
             name = input("Names here ")
             for i in name:
-                print(i[name])
+                print(name[i])
         except EOFError:
             break
 
