@@ -10,7 +10,6 @@ def main():
             main()
 
 def otra(level, n):
-
     while True:
         if level >= 1 and level <= 10:
                 guess = int(input("Guess: "))
@@ -21,7 +20,6 @@ def otra(level, n):
                     print("Too small!")
                     otra(level, n)
                 else:
-
                     sys.exit("just right!")
 
 main()
