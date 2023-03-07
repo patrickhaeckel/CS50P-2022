@@ -1,4 +1,5 @@
 import random
+import sys
 def main():
     while True:
         try:
@@ -6,10 +7,11 @@ def main():
             otra(level)
         except ValueError:
             main()
+
 def otra(level):
+    n = random.randint(1, level)
     while True:
         if level >= 1 and level <= 10:
-                n = random.randint(1, level)
                 guess = int(input("Guess: "))
                 if guess > n:
                     print("Too large!")
@@ -18,7 +20,7 @@ def otra(level):
                     print("Too small!")
                     otra(level)
                 else:
-                    print("Just right!")
-                    break
+                    
+                    sys.exit("just right!")
 
 main()
