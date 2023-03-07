@@ -13,7 +13,7 @@ while True:
                 print("Just right!")
                 break
 
-    except(ValueError):
+    except ValueError:
         print("hubo error")
         break
 
