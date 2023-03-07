@@ -12,6 +12,6 @@ while True:
             print("Just right!")
             break
     else:
-        break
+        print(level)
 
 
