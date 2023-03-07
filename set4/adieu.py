@@ -9,7 +9,7 @@ while True:
         break
 print("")
 for n in data:
-    print(n)
+    print(n, end="")
 
 
 
