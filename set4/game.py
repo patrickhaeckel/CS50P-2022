@@ -5,7 +5,6 @@ while True:
     level = level
     try:
         if level >= 1 and level <= 10:
-
             guess = int(input("Guess: "))
             if guess > n:
                 print("Too large!")
