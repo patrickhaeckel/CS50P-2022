@@ -5,10 +5,10 @@ def main():
             level = int(input("Level: "))
             if level >= 1 and level <= 10:
                 n = random.randint(1, level)
-                otra(n)
+                otra(level)
         except ValueError:
             main()
-def otra(n):
+def otra(level):
     if level >= 1 and level <= 10:
             guess = int(input("Guess: "))
             if guess > n:
