@@ -5,5 +5,6 @@ while True:
         name = input("Names here ")
     except EOFError:
         for i in dict:
-            print(dict[name])
+            print(dict[i])
+        break
 
