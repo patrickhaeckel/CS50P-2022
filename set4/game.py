@@ -4,8 +4,8 @@ while True:
         level = int(input("Level: "))
         if level > 0:
             break
-        except:
-             pass
+    except:
+        pass
 
 while True:
     try:
