@@ -2,10 +2,11 @@ import random
 while True:
     try:
         level = int(input("Level: "))
-        if level >= 1 and level <= 10:
-            n = random.randint(1, level)
-    else:
-        break
+        if level > 0:
+            break
+        except:
+             pass
+
 while True:
     try:
         if level >= 1 and level <= 10:
