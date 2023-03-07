@@ -3,8 +3,6 @@ while True:
     try:
         level = int(input("Level: "))
         guess = int(input("Guess: "))
-    except ValueError:
+    except(ValueError):
         print(level, guess)
-    break
-
 
