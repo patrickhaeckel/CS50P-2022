@@ -1,10 +1,9 @@
 import random
-
+level = int(input("Level: "))
+n = random.randint(1, level)
 while True:
-    level = int(input("Level: "))
-    n = random.randint(1, level)
     try:
-        if level >= 1 and level <= 10 and level.isdigit():
+        if level >= 1 and level <= 10:
             guess = int(input("Guess: "))
             if guess > n:
                 print("Too large!")
