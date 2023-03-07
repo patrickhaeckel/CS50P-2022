@@ -5,14 +5,13 @@ while True:
         if level >= 1 and level <=10:
             n = random.randint(1, level)
             guess = int(input("Guess: "))
-            if guess > level:
+            if guess > n:
                 print("Too large!")
-            elif guess < level:
+            elif guess < n:
                 print("Too small!")
             else:
                 print("Just right!")
                 break
-            break
 
     except ValueError:
         print("hubo error")
