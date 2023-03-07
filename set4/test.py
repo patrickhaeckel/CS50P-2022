@@ -9,6 +9,7 @@ def main():
             else:
                 print("Just right!")
                 break
-def otra()
+def otra():
     level = int(input("Level: "))
     n = random.randint(1, level)
+otra()
