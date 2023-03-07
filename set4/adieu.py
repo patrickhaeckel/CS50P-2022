@@ -10,7 +10,7 @@ while True:
     except EOFError:
         break
 print("")
-print(mylist)
+print("Adieu, adieu, " + mylist)
 
 
 
