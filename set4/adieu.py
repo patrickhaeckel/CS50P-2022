@@ -6,6 +6,7 @@ while True:
         data.append(name)
     except EOFError:
         break
+print("")
 for n in data:
     print(n)
 
