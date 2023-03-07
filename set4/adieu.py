@@ -10,10 +10,9 @@ while True:
     except EOFError:
         break
 print("")
+p.join(data)
 for n in data:
-    print(p.join(n))
-    
-
+    print(n)
 
 
 
