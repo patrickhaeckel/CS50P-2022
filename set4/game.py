@@ -1,6 +1,9 @@
 import random
 level = int(input("Level: "))
-n = random.randint(1, level)
+while True:
+    if level >= 1 and level <= 10:
+        n = random.randint(1, level)
+        continue
 while True:
     level = level
     try:
