@@ -5,10 +5,7 @@ def main():
     score = sim_game(level)
     print(f"Score: {score}/10")
 
-
-
-
-def sim_round(x, y):
+def sim_round(x,y):
     eeecounter = 1
     while eeecounter <= 3:
         try:
@@ -56,7 +53,7 @@ def sim_game(level):
     score = 0
     while counter <= 10:
         x, y = generate_integer(level)
-        response = sim_round(x, y)
+        response = sim_round(x,y)
         if response == True:
             score +=1
         counter += 1
