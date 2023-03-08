@@ -19,11 +19,11 @@ def sim_round(x, y):
             else:
                 eeecounter += 1
                 print("EEE")
-                return False
+
         except:
             eeecounter += 1
             print("EEE")
-            return False
+            
     print(f"{x} + {y} = {x+y}")
     return False
 
