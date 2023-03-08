@@ -16,12 +16,14 @@ def sim_round(x, y):
             if answer == (x + y):
                 eeecounter += 1
                 return True
-            elif answer == False:
+            else:
                 eeecounter += 1
                 print("EEE")
+                return False
         except:
             eeecounter += 1
             print("EEE")
+            return False
     print(f"{x} + {y} = {x+y}")
     return False
 
