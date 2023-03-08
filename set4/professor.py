@@ -58,7 +58,8 @@ def sim_game(level):
         if response == True:
             score +=1
             counter +=1
-        counter += 1
+        else:
+            counter += 1
     return score
 
 if __name__ == "__main__":
