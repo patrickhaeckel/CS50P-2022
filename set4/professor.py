@@ -14,7 +14,7 @@ def sim_round(x, y):
         try:
             answer = int(input(f"{x} + {y} = "))
             if answer == (x + y):
-                counter += 1
+                eeecounter += 1
                 return True
             else:
                 eeecounter += 1
@@ -58,9 +58,7 @@ def sim_game(level):
         response = sim_round(x, y)
         if response == True:
             score +=1
-            counter +=1
-        else:
-            counter += 1
+        counter += 1
     return score
 
 if __name__ == "__main__":
