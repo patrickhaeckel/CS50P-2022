@@ -16,7 +16,7 @@ def sim_round(x, y):
             if answer == (x + y):
                 eeecounter += 1
                 return True
-            else:
+            elif answer == False:
                 eeecounter += 1
                 print("EEE")
         except:
