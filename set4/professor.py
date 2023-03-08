@@ -14,7 +14,6 @@ def sim_round(x, y):
         try:
             answer = int(input(f"{x} + {y} = "))
             if answer == (x + y):
-                counter += 1
                 return True
             else:
                 eeecounter += 1
@@ -23,7 +22,7 @@ def sim_round(x, y):
         except:
             eeecounter += 1
             print("EEE")
-            
+
     print(f"{x} + {y} = {x+y}")
     return False
 
