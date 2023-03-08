@@ -57,6 +57,7 @@ def sim_game(level):
         response = sim_round(x, y)
         if response == True:
             score +=1
+            counter +=1
         counter += 1
     return score
 
