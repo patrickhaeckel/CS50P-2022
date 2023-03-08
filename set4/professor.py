@@ -4,7 +4,7 @@ def main():
     level = get_level()
     score = sim_game(level)
     print(f"Score: {score}/10")
-    sys.exit()
+
 
 
 
