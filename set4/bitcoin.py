@@ -7,8 +7,8 @@ try:
         lista = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
         o = lista.json()
-        for key,value,value in o["bpi"]:
-            print(key)
+        for key, value in o.items():
+            print(key, value)
 
     else:
         sys.exit("Missing command-line argument")
