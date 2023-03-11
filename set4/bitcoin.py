@@ -4,11 +4,11 @@ import sys
 try:
 
     if sys.argv[1].isdigit():
-        index = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+        lista = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
-        o = index.json()
+        o = lista.json()
         for result in o["time"]:
-            print((result["rate_float"])*(sys.argv[1]))
+            print(result["time"])
 
     else:
         sys.exit("Missing command-line argument")
