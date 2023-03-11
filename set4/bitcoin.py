@@ -7,8 +7,8 @@ try:
         index = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
         o = index.json()
-        for algo in o[]
-        print(json.dumps(index.json(), indent=2))
+        for algo in o["USD"]
+        print("description")
 
     else:
         sys.exit("Missing command-line argument")
