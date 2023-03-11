@@ -8,7 +8,7 @@ try:
 
         o = lista.json()
         for result in o["time"]:
-            print(result["USD":])
+            print(result[0:500])
 
     else:
         sys.exit("Missing command-line argument")
