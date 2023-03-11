@@ -7,15 +7,11 @@ try:
         index = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
         o = index.json()
-        for results in o["USD"]:
+        for results in o["BPI"]:
             print(results["rate_float"])
 
     else:
         sys.exit("Missing command-line argument")
-
-
-
-
     ...
 except (requests.RequestException, IndexError,):
     pass
