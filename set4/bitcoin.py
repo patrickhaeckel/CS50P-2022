@@ -3,6 +3,7 @@ import sys
 
 numbtc = float(input())
 try:
+    
 
     ...
 except requests.RequestException:
