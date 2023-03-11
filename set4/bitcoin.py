@@ -1,12 +1,13 @@
 import requests
 import sys
 
-numbtc = float(input())
+numbtc = (input())
 
 try:
-    if 
-    index = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
-    print(index.json)
+    if numbtc.isdigit():
+        numbtc = float(numbtc)
+        index = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+        print(f"${index:index,.4f}")
 
 
 
