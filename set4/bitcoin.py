@@ -14,8 +14,5 @@ try:
         sys.exit("Missing command-line argument")
 
 
-
-
-    ...
 except (requests.RequestException, IndexError,):
     pass
