@@ -8,7 +8,7 @@ try:
 
         o = lista.json()
         for key, value in o["bpi"].items():
-            print(value["rate_float"])
+            print()
 
     else:
         sys.exit("Missing command-line argument")
