@@ -7,6 +7,7 @@ try:
     if numbtc.isdigit():
         numbtc = float(numbtc)
         index = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+        print(index)
         print(f"${index:,.4f}")
 
 
