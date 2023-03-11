@@ -8,7 +8,7 @@ try:
 
         o = lista.json()
         for result in o["bpi"]:
-            print(o["bpi"])
+            print(o.items())
 
     else:
         sys.exit("Missing command-line argument")
