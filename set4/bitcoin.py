@@ -1,4 +1,6 @@
 import requests
+import sys
+
 
 try:
     ...
