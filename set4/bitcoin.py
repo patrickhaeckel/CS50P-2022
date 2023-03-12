@@ -3,12 +3,11 @@ import json
 import sys
 try:
 
-    if sys.argv[1].isdigit():
+    if len(sys.argv) == 2
         x = int(sys.argv[1])
         lista = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
-
-        o = lista.json()
-        value = (o["bpi"]["USD"]["rate_float"])
+        dict = lista.json()
+        value = (dict["bpi"]["USD"]["rate_float"])
         value = float(value) * x
         print(f"${value:,.4f}")
 
