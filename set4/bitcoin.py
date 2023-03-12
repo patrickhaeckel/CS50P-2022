@@ -9,7 +9,7 @@ try:
         o = lista.json()
         for value in o["bpi"].values():
             x = (value["rate"])
-            print(o.get(USD))
+            print(o.get("USD", "rate"))
 
     else:
         sys.exit("Missing command-line argument")
