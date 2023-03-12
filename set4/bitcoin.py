@@ -10,7 +10,7 @@ try:
         o = lista.json()
         value = (o["bpi"]["USD"]["rate_float"])
         value = float(value) * x
-        print(value)
+        print(f"${value:,.4f}")
 
     else:
         sys.exit("Missing command-line argument")
