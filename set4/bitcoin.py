@@ -4,7 +4,7 @@ import sys
 try:
 
     if sys.argv[1].isdigit():
-        x = float(sys.argv[1])
+        x = int(sys.argv[1])
         lista = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
         o = lista.json()
