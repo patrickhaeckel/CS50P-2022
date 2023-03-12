@@ -7,7 +7,7 @@ try:
         lista = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
         o = lista.json()
-        for value in o["bpi"[]].values():
+        for value in o["bpi"].values():
             print(value["rate"])
 
     else:
