@@ -8,8 +8,8 @@ try:
         lista = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
         o = lista.json()
-        value = (o["bpi"]["USD"]["rate"])
-        value = value * x
+        value = (o["bpi"]["USD"]["rate_float"])
+        value = float(value) * x
         print(value)
 
     else:
