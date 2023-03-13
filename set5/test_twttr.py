@@ -7,15 +7,14 @@ def main():
 
 
 def test_str():
-    assert shorten("4") == "4"
+    assert shorten('4') == '4'
 
 def test_lower():
-    assert shorten("vvv") == "vvv"
+    assert shorten('vvv') == 'vvv'
 
 def test_upper():
-    assert shorten("VVV") == "vvv"
+    assert shorten('VVV') == 'vvv'
 
 def test_both():
-    assert shorten("vVv") == "vVv"
-
+    assert shorten('vVv') == 'vvv'
 main()
