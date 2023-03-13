@@ -5,9 +5,9 @@ def main():
 def value(greeting):
     greeting = input("say hello ").replace(" ", "").casefold()
     if greeting.startswith("hello"):
-        print("$0")
+        return("$0")
     elif greeting.startswith("h"):
-        print("$20")
+        return("$20")
 
 
 if __name__ == "__main__":
