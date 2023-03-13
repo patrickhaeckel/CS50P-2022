@@ -1,6 +1,6 @@
 def main():
-    word = input("Your text here ")
-    print(shorten(word))
+    message = input("Your text here ")
+    print(shorten(message))
 
 def shorten(word):
     vocals = ["a", "e", "i", "o", "u"]
