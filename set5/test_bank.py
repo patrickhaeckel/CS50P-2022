@@ -1,1 +1,9 @@
-check50 cs50/problems/2022/python/tests/bank
+import value from bank
+def main():
+
+
+def test_values():
+    assert value() ==
+    assert value() ==
+    assert value() ==
+    assert value() ==
