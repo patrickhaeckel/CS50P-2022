@@ -5,11 +5,11 @@ def main():
 
 def value(greeting):
     if greeting.startswith("hello"):
-        return("$0")
+        return(f"${0}")
     elif greeting.startswith("h"):
-        return("$20")
+        return(f"${20}")
     else:
-        return("$100")
+        return(f"${100}")
 
 
 if __name__ == "__main__":
