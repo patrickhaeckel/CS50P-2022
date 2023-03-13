@@ -5,7 +5,7 @@ def main():
 def shorten(word):
     vocals = ["a", "e", "i", "o", "u"]
     for i in vocals:
-        word = word
+        word = word.replace(i, "").lower()
     return word
 
 
