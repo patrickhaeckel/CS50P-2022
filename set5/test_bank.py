@@ -1,6 +1,6 @@
 from bank import value
 def main():
-    test_casefold()
+    print(test_casefold())
 
 
 def test_casefold():
