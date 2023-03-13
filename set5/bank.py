@@ -1,9 +1,10 @@
 def main():
-    greeting = input("say hello ").replace(" ", "").casefold()
+
     print(value(greeting))
 
 
 def value(greeting):
+    greeting = input("say hello ").replace(" ", "").casefold()
     if greeting.startswith("hello"):
         return("$0")
     elif greeting.startswith("h"):
