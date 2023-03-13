@@ -4,7 +4,7 @@ def main():
 
 
 def test_values():
-    assert value('000') == ('None')
+    assert value('000') == ('$100')
     assert value('HELLO') == ('$0')
     assert value('hola') == ('$20')
 
