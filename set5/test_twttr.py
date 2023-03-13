@@ -10,11 +10,13 @@ def test_str():
     assert shorten('4') == '4'
 
 def test_lower():
-    assert shorten('twitter') == 'twtr'
+    assert shorten('twitter') == 'twttr'
 
 def test_upper():
     assert shorten('TWITTER') == 'TWTTR'
 
 def test_both():
     assert shorten('TwItTeR') == 'TwtTR'
-main()
+
+if __name__ == "__main__":
+    main()
