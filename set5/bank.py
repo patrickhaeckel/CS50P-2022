@@ -1,11 +1,12 @@
 def main():
-    greeting = input("say hello ").strip().lower()
+    greeting = input("say hello ")
     toprint = value(greeting)
     print(f"${toprint}")
 
 
 def value(greeting):
-    if "hello" in greeting:
+    greeting = greeting.strip().lower()
+    if greeting.startswith("hello"):
         return(0)
     elif greeting.startswith("h"):
         return(20)
