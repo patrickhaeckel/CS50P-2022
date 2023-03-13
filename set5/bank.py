@@ -5,9 +5,9 @@ def main():
 
 def value(greeting):
 
-    if word.startswith("hello"):
+    if greeting.startswith("hello"):
         return("$0")
-    elif word.startswith("h"):
+    elif greeting.startswith("h"):
         return("$20")
 
 
