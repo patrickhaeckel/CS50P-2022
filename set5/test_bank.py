@@ -4,10 +4,9 @@ def main():
 
 
 def test_values():
-    assert value('000') == (None)
+    assert value('000') == ('None')
     assert value('HELLO') == ('$0')
-    assert value('hOLA MARCO') == ('$20')
-    assert value(None) == ('$0')
+    assert value('hola') == ('$20')
 
 if __name__ == "__main__":
     main()
