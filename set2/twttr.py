@@ -1,11 +1,13 @@
 def main():
-    vocals = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
-    text = input("Your text here ")
+    word = input("Your text here ")
+    print(shorten(word))
+
+def shorten(word):
+    vocals = ["a", "e", "i", "o", "u"]
     for i in vocals:
-        text = text.replace(i, "")
-    print(text)
+        word = word.replace(i, "").lower()
+    return word
 
 
-main()
-
-
+if __name__ == "__main__":
+    main()
