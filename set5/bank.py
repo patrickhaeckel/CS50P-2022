@@ -1,6 +1,6 @@
 def main():
 
-    print(value(greeting))
+    value(greeting)
 
 
 def value(greeting):
