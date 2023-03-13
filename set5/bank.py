@@ -1,5 +1,5 @@
 def main():
-    greeting = input("say hello ").replace(" ", "").casefold()
+    greeting = input("say hello ").replace(" ", "").lower()
     print(value(greeting))
 
 
