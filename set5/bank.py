@@ -3,10 +3,10 @@ def main():
     print(value(greeting))
 
 
-def value(word):
-    if word.startswith("hello"):
+def value(greeting):
+    if greeting.startswith("hello"):
         return("$0")
-    elif word.startswith("h"):
+    elif greeting.startswith("h"):
         return("$20")
 
 
