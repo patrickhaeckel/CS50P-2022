@@ -1,5 +1,5 @@
 def main():
-    greeting = input("say hello ").replace(" ", "").lower()
+    greeting = input("say hello ").strip().lower()
     toprint = value(greeting)
     print(f"${toprint}")
 
