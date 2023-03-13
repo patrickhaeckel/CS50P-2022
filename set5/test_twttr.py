@@ -13,8 +13,8 @@ def test_lower():
     assert shorten('vvv') == 'vvv'
 
 def test_upper():
-    assert shorten('VVV') == 'vvv'
+    assert shorten('VVV') == 'VVV'
 
 def test_both():
-    assert shorten('vVv') == 'vvv'
+    assert shorten('vVv') == 'vVv'
 main()
