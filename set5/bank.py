@@ -1,9 +1,13 @@
 def main():
-    word = input("say hello ").replace(" ", "").casefold()
+
 
 
 def value(greeting):
-    ...
+    greeting = input("say hello ").replace(" ", "").casefold()
+    if greeting.startswith("hello"):
+        return("$0")
+    elif greeting.startswith("h"):
+        return("$20")
 
 
 if __name__ == "__main__":
@@ -11,7 +15,3 @@ if __name__ == "__main__":
 
 
 
-if word.startswith("hello"):
-    print("$0")
-elif word.startswith("h"):
-    print("$20")
