@@ -1,12 +1,12 @@
 def main():
-    value(greeting)
-
-
-def value(greeting):
     greeting = input("say hello ").replace(" ", "").casefold()
-    if greeting.startswith("hello"):
+    print(value(greeting))
+
+
+def value(word):
+    if word.startswith("hello"):
         return("$0")
-    elif greeting.startswith("h"):
+    elif word.startswith("h"):
         return("$20")
 
 
