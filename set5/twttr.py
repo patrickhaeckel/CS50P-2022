@@ -3,9 +3,9 @@ def main():
     print(shorten(message))
 
 def shorten(word):
-    vocals = ["a", "e", "i", "o", "u"]
+    vocals = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     for i in vocals:
-        word = word.replace(i, "").lower()
+        word = word.replace(i, "")
     return word
 
 

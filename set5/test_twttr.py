@@ -10,11 +10,11 @@ def test_str():
     assert shorten('4') == '4'
 
 def test_lower():
-    assert shorten('vvv') == 'vvv'
+    assert shorten('twitter') == 'twtr'
 
 def test_upper():
-    assert shorten('VVV') == 'VVV'
+    assert shorten('TWITTER') == 'TWTTR'
 
 def test_both():
-    assert shorten('vVv') == 'vVv'
+    assert shorten('TwItTeR') == 'TwtTR'
 main()
