@@ -18,9 +18,8 @@ def is_valid(s):
 
 
     for i in s:
-        for i in s:
-            if i in ["."]:
-                return False
+        if i in ["."]:
+            return False
 
         if s[i].isalpha() == False:
             if s[i] == "0":
