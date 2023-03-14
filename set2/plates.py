@@ -19,8 +19,7 @@ def is_valid(s):
 # For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable.
 # The first number used cannot be a ‘0’
     i = 0
-    x = len(s)
-    if i[x].isalpha() == True:
+    if i[len(s)-1].isalpha() == True:
         return False
     while (i) < len(s):
         if s[i].isalpha() == False:
