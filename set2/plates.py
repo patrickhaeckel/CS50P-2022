@@ -16,7 +16,7 @@ def is_valid(s):
 
     s = []
 
-    for i in s:
+    while i < len s:
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
