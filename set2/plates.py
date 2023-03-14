@@ -24,8 +24,7 @@ def is_valid(s):
             else:
                 break
     for c in s:
-        lista = ["."]
-        if c in lista:
+        if c in ["."]:
             return False
 
 
