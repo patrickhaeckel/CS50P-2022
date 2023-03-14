@@ -16,6 +16,7 @@ def is_valid(s):
     s = []
 
     for i in s:
+        
         lista = ["."]
         if i in lista:
             return False
