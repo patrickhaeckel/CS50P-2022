@@ -16,20 +16,18 @@ def is_valid(s):
     s = []
 
     for i in s:
-        
         lista = ["."]
-        if i in lista:
+        if s in lista:
             return False
-        else:
 
-            if s[i].isalpha() == False:
-                if s[i] == "0":
-                    return False
-                elif s[i+1].isalpha() == True:
-                    return False
+        if s[i].isalpha() == False:
+            if s[i] == "0":
+                return False
+            elif s[i+1].isalpha() == True:
+                return False
 
-                else:
-                    break
+            else:
+                break
 
 
     return True
