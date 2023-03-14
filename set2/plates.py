@@ -39,7 +39,7 @@ def is_valid(s):
 
 # No periods, spaces, or punctuation marks are allowed
 # noper = [".", " ", "!"]
-    if s[i] == [".", " ", "!"]:
+    if s[i] == (".", " ", "!"):
         return False
     return True
 main()
