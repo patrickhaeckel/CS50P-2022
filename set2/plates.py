@@ -13,6 +13,8 @@ def is_valid(s):
 
     i = 0
     while i < len(s):
+        if i in [".", " "]:
+                return False
         if s[i].isdigit():
             if s[i] == "0":
                 return False
