@@ -11,8 +11,6 @@ def is_valid(s):
         return False
     if s[0].isalpha() == False or s[1].isalpha() == False:
         return False
-    if s[-1].isalpha() == True:
-        return False
 
     i = 0
     while i < len(s):
