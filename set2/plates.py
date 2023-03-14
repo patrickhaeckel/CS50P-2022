@@ -26,6 +26,7 @@ def is_valid(s):
             if s[i+1].isalpha() == True:
                 return False
             else:
+                break
 
 
 
@@ -35,8 +36,8 @@ def is_valid(s):
 
 # No periods, spaces, or punctuation marks are allowed
 # noper = [".", " ", "!"]
-        if s == [".", " ", "!"]:
-            return False
-        return True
+    if s == [".", " ", "!"]:
+        return False
+    return True
 main()
 
