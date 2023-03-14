@@ -20,7 +20,7 @@ def is_valid(s):
         if i in ["."]:
             return False
 
-        if s[i].isalpha() == False:
+        elif s[i].isalpha() == False:
             if s[i] == "0":
                 return False
             elif s[i+1].isalpha() == True:
