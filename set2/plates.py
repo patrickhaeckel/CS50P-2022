@@ -20,7 +20,7 @@ def is_valid(s):
 # The first number used cannot be a ‘0’
     i = 0
     x = len(s)
-    x = x.str()
+    x = str(x)
     if i[x].isalpha() == True:
         return False
     while (i) < len(s):
