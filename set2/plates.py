@@ -25,6 +25,7 @@ def is_valid(s):
                 return False
             else:
                 break
+        i += 1
         elif s[i].isalpha():
         i += 1
 
