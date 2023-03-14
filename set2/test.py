@@ -1,13 +1,8 @@
 x = input("aqui ")
 i = 0
 while i <= len (x):
-        try:
+        if x[0].isdigit():
+            print("es el ultimo")
 
-            if x[i].isdigit():
-                print("es el ultimo")
-
-            i += 1
-            print(i)
-
-        except IndexError:
-             pass
+        i += 1
+        print(i)
