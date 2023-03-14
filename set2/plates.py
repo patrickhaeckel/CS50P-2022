@@ -16,6 +16,10 @@ def is_valid(s):
 
     i = 0
     while i < len (s):
+        for i in s:
+            if i in ["."]:
+                return False
+
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
@@ -24,10 +28,8 @@ def is_valid(s):
             else:
                 break
         i += 1
-        
-    for c in s:
-        if c in ["."]:
-            return False
+
+
 
 
 
