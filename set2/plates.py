@@ -15,7 +15,7 @@ def is_valid(s):
     if s[-1].isalpha() == True:
         return False
 
-    s = {}
+    s = []
     for i in s:
         if s[i] in [".", ",", " "]:
             return False
