@@ -22,6 +22,7 @@ def is_valid(s):
 # For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable.
 # The first number used cannot be a ‘0’
     i = 0
+
     while (i) < len(s):
         if s[i].isalpha() == False:
             if s[i] == "0":
@@ -30,6 +31,9 @@ def is_valid(s):
                 return False
             else:
                 break
+
+        if s[i] == [".", " ", "!"]:
+            return False
         i +=1
 
 
@@ -39,8 +43,7 @@ def is_valid(s):
 
 # No periods, spaces, or punctuation marks are allowed
 # noper = [".", " ", "!"]
-    if s[i] == (".", " ", "!"):
-        return False
+
     return True
 main()
 
