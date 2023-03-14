@@ -14,7 +14,10 @@ def is_valid(s):
 # vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters
     if len(s) < 2 or len(s) > 6:
         return False
-    if s[len(s)].isalpha() == True:
+
+    x = len(s)
+
+    if s[x].isalpha() == True:
         return False
 
 # Numbers cannot be used in the middle of a plate; they must come at the end.
