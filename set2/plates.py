@@ -15,9 +15,7 @@ def is_valid(s):
     if len(s) < 2 or len(s) > 6:
         return False
 
-    x = len(s)
-
-    if s[x].isalpha() == True:
+    if s[(s-1)].isalpha() == True:
         return False
 
 # Numbers cannot be used in the middle of a plate; they must come at the end.
