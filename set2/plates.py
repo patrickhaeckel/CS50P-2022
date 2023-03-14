@@ -25,9 +25,7 @@ def is_valid(s):
                 return False
             else:
                 break
-        i += 1
-        x = len(s)
-        if 
+       
 
 
 # No periods, spaces, or punctuation marks are allowed
