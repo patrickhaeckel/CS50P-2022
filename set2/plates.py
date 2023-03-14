@@ -12,9 +12,9 @@ def is_valid(s):
     if s[0].isalpha() == False or s[1].isalpha() == False:
         return False
 
-    i = 2
+    i = 0
     while i <= len(s):
-        if s[i].isalpha() == False:
+        if s[i].isdigit():
             if s[i] == "0":
                 return False
             if s[i].isdigit():
