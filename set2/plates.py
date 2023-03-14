@@ -26,6 +26,7 @@ def is_valid(s):
             else:
                 break
         i += 1
+    if 
 
 # No periods, spaces, or punctuation marks are allowed
 # noper = [".", " ", "!"]
