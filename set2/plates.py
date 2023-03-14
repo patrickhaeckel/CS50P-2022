@@ -26,8 +26,9 @@ def is_valid(s):
             else:
                 break
         i += 1
-        elif s[i].isalpha():
-        i += 1
+        x = len(s)
+        if 
+
 
 # No periods, spaces, or punctuation marks are allowed
 # noper = [".", " ", "!"]
