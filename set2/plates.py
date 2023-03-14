@@ -12,7 +12,7 @@ def is_valid(s):
     if s[0].isalpha() == False or s[1].isalpha() == False:
         return False
 
-    i = 0
+    i = 2
     while i < len(s):
         if s[i] in ["."]:
             return False
