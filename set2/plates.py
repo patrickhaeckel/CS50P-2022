@@ -23,7 +23,7 @@ def is_valid(s):
 # The first number used cannot be a ‘0’
     i = 0
 
-    while (i) < len(s):
+    for i in s:
         if s[i] in [".", ",", " "]:
                 return False
         if s[i].isalpha() == False:
