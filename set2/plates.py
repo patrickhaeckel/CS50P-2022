@@ -16,7 +16,7 @@ def is_valid(s):
 
     i = 0
     while i < len(s):
-        if i in ["."]:
+        if s[i] in ["."]:
             return False
 
         if s[i].isalpha() == False:
