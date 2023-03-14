@@ -17,8 +17,9 @@ def is_valid(s):
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
-            if s[i+1].isalpha() == True:
-                return False
+            if s[i].isdigit():
+                if not s[i:].isdigit():
+                    return False
             else:
                 break
         i += 1
