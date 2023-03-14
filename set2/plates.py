@@ -20,6 +20,8 @@ def is_valid(s):
 # The first number used cannot be a ‘0’
     i = 0
     while (i) < len(s):
+        if s[i-1].isalpha() == True:
+            return False
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
