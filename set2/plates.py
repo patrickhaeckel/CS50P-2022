@@ -22,7 +22,7 @@ def is_valid(s):
 # For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable.
 # The first number used cannot be a ‘0’
 
-    
+    s = {}
     for i in s:
         if s[i] in [".", ",", " "]:
                 return False
