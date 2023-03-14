@@ -31,5 +31,6 @@ def is_valid(s):
 # noper = [".", " ", "!"]
     if s == ".":
         return false
-    return True
+    else:
+        return True
 main()
