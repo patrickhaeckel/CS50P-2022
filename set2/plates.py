@@ -11,7 +11,7 @@ def is_valid(s):
     if s[0].isalpha() == False or s[1].isalpha() == False:
         return False
 
-    i = 1
+    i = 7
     while i < len(s):
         if s[i].isdigit():
             if s[i] == "0":
