@@ -23,9 +23,11 @@ def is_valid(s):
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
+            if s[i]
             else:
                 break
-       
+
+
 
 
 # No periods, spaces, or punctuation marks are allowed
