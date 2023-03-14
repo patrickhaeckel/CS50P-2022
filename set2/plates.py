@@ -1,5 +1,5 @@
 def main():
-    plate = "_"
+    plate = input("Plate: ")
     if is_valid(plate):
         print("Valid")
     else:
@@ -7,8 +7,6 @@ def main():
 
 
 def is_valid(s):
-    s = input("Plate: ")
-    s = {}
     if len(s) < 2 or len(s) > 6:
         return False
     if s[0].isalpha() == False or s[1].isalpha() == False:
@@ -16,8 +14,8 @@ def is_valid(s):
     if s[-1].isalpha() == True:
         return False
 
-
-    for i in s:
+    i = 0
+    while i < len(s):
         if i in ["."]:
             return False
 
@@ -28,11 +26,7 @@ def is_valid(s):
                 return False
             else:
                 break
-
-
-
-
-
+        i += 1
 
     return True
 main()
