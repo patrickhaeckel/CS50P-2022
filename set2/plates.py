@@ -29,7 +29,7 @@ def is_valid(s):
                 return False
             elif s[i+1].isalpha() == True:
                 return False
-            elif s[i] == ("." "," " "):
+            elif s[i] in [".", ",", " "]:
                 return False
             else:
                 break
