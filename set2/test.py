@@ -1,7 +1,6 @@
 x = input("aqui ")
-x ={}
 i = 0
-for i in x:
-    if x[i:].isalpha():
-        print("es el ultimo")
-        
+while i < len (x):
+        if x[i:].isalpha():
+            print("es el ultimo")
+        i += 1
