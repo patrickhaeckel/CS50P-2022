@@ -19,7 +19,7 @@ def is_valid(s):
     for i in s:
         if s[i] in [".", ",", " "]:
             return False
-        elif s[i].isalpha() == False:
+        if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
             elif s[i+1].isalpha() == True:
