@@ -16,7 +16,8 @@ def is_valid(s):
     s = []
 
     for i in s:
-        if s[i] in [".", ",", " "]:
+        lista = {"."}
+        if i[s] in lista:
             return False
         if s[i].isalpha() == False:
             if s[i] == "0":
@@ -26,8 +27,6 @@ def is_valid(s):
 
             else:
                 break
-        else:
-            return True
 
 
     return True
