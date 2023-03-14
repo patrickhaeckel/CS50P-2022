@@ -36,14 +36,6 @@ def is_valid(s):
                 break
         i +=1
 
-
-
-
-
-
-# No periods, spaces, or punctuation marks are allowed
-# noper = [".", " ", "!"]
-
     return True
 main()
 
