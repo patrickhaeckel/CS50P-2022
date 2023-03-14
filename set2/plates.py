@@ -21,9 +21,9 @@ def is_valid(s):
 # Numbers cannot be used in the middle of a plate; they must come at the end.
 # For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable.
 # The first number used cannot be a ‘0’
-    i = 0
+    
 
-    while (i) < len(s):
+    for i in range(len(s)):
         if s[i] in [".", ",", " "]:
                 return False
         if s[i].isalpha() == False:
@@ -34,7 +34,6 @@ def is_valid(s):
 
             else:
                 break
-        i +=1
 
 
     return True
