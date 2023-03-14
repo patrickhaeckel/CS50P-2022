@@ -7,7 +7,7 @@ def main():
 
 
 def is_valid(s):
-    s = {}
+    s = []
     s = input("Plate: ")
     if len(s) < 2 or len(s) > 6:
         return False
