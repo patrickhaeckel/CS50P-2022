@@ -24,13 +24,14 @@ def is_valid(s):
     i = 0
 
     while (i) < len(s):
+        if s[i] in [".", ",", " "]:
+                return False
         if s[i].isalpha() == False:
             if s[i] == "0":
                 return False
             elif s[i+1].isalpha() == True:
                 return False
-            elif s[i] in [".", ",", " "]:
-                return False
+
             else:
                 break
         i +=1
