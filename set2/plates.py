@@ -13,6 +13,7 @@ def is_valid(s):
         return False
     if s[-1].isalpha() == True:
         return False
+
     s = []
 
     for i in s:
@@ -23,9 +24,6 @@ def is_valid(s):
                 return False
             else:
                 break
-    for c in s:
-        if c in ["."]:
-            return False
 
 
     return True
