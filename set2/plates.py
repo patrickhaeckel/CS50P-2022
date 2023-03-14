@@ -26,8 +26,8 @@ def is_valid(s):
             if s[i+1].isalpha() == True:
                 return False
             else:
-                break
-        i += 1
+                i += 1
+
 
 
 
