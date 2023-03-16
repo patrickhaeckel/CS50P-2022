@@ -2,7 +2,7 @@ x = input("aqui ")
 i = 0
 print(len(x))
 while i <= len (x):
-        if x[i].isdigit():
+        if x[1].isdigit():
             print("!!!!!!!")
 
         i += 1
