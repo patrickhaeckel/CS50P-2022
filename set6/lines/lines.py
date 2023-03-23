@@ -3,10 +3,9 @@ import sys
 while True:
     n = 0
     if sys.argv[1].endswith(".py"):
-        print("yes")
         if len(sys.argv) == 2:
 
-            with open("linestxt.py", "r") as file:
+            with open("sys.argv[1]", "r") as file:
                 lines = file.readlines()
             for line in lines:
                 if line[0] == "#" or line == "\n":
@@ -15,10 +14,11 @@ while True:
                     n += 1
             print(n)
             break
+
         else:
             sys.exit("Too many command-line arguments")
     else:
-        sys.exit("File does not exist")
+        sys.exit("Not a python file")
 
 
 
