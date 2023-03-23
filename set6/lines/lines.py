@@ -19,7 +19,7 @@ while True:
             else:
                 sys.exit("Too many command-line arguments")
         else:
-            sys.exit("Not a python file")
+            sys.exit("Invalid extension")
     except:
         raise
 
