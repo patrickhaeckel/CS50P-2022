@@ -1,5 +1,4 @@
 import sys
-
 while True:
     try:
         n = 0
