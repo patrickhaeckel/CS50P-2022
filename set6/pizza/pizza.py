@@ -5,7 +5,12 @@ from tabulate import tabulate
 menu = []
 while True:
     try:
-        if len(sys.argv) == 2:
+        if len(sys.argv) > 2:
+            sys.exit("Too many command-line arguments")
+        elif len(sys.argv) < 2:
+            sys.exit("Too few command-line arguments")
+
+        elif len(sys.argv) == 2:
             with open(sys.argv[1], "r") as file:
                 table = csv.reader(file)
                 for row in table:
