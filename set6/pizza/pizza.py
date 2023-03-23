@@ -11,6 +11,7 @@ while True:
                 for row in table:
                     menu.append(row)
 
+        print(tabulate(menu, menu[1:], headers= menu[0]))
         break
     except:
         raise
