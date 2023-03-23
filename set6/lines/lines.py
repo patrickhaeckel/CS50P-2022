@@ -3,8 +3,8 @@ import sys
 while True:
     try:
         n = 0
-        if sys.argv[1].endswith(".py"):
-            if len(sys.argv) == 2:
+        if len(sys.argv) == 2:
+            if sys.argv[1].endswith(".py"):
 
                 with open(sys.argv[1], "r") as file:
                     lines = file.readlines()
@@ -17,9 +17,9 @@ while True:
                 break
 
             else:
-                sys.exit("Too many command-line arguments")
+                sys.exit("Invalid extension")
         else:
-            sys.exit("Invalid extension")
+            sys.exit("Too many command-line arguments")
     except:
         raise
 
