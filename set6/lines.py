@@ -3,9 +3,8 @@ n = 0
 while True:
     try:
         if len(sys.argv) == 2:
-            x = (sys.argv)
-            if ".py" is x:
-                print("yes")
+            if sys.argv[-3:-1] == ".py":
+                print ("yes")
 
         with open("linestxt.py", "r") as file:
             lines = file.readlines()
@@ -14,5 +13,7 @@ while True:
                 n = n
             else:
                 n += 1
-print(n)
+        print(n)
+    except:
+        pass
 
