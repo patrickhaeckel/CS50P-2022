@@ -14,5 +14,5 @@ while True:
 
         break
     except:
-        raise
+        sys.exit("File does not exist")
 print(tabulate(menu[1:], headers=menu[0], tablefmt="grid"))
