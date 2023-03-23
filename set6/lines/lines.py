@@ -20,8 +20,8 @@ while True:
                 sys.exit("Not a Python file")
         else:
             sys.exit("Too many command-line arguments")
-    except:
-        raise
+    except FileNotFoundError:
+        sys.exit("File does not exist")
 
 
 
