@@ -8,7 +8,7 @@ while True:
                 with open(sys.argv[1], "r") as file:
                     lines = file.readlines()
                 for line in lines:
-                    if line.lstrip().startswith("#") or line == "\n":
+                    if line.lstrip().startswith("#") or line.isspace():
                         n = n
                     else:
                         n += 1
