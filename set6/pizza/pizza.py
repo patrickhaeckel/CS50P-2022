@@ -16,6 +16,9 @@ while True:
                     table = csv.reader(file)
                     for row in table:
                         menu.append(row)
+            else:
+                sys.exit("Not a Python file")
+
             break
 
     except FileNotFoundError:
