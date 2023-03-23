@@ -1,5 +1,6 @@
 import sys
 import csv
+import tabulate
 
 menu = []
 while True:
@@ -13,4 +14,3 @@ while True:
         break
     except:
         raise
-print(tabulate(menu, menu[1:], headers= menu[0]))
