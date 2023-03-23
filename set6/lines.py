@@ -2,7 +2,7 @@ import sys
 
 while True:
     n = 0
-    if sys.argv[-3:-1] == ".py":
+    if sys.argv[-3] == ".":
         print("yes")
 
         with open("linestxt.py", "r") as file:
