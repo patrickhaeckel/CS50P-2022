@@ -18,6 +18,6 @@ while True:
 
 
         break
-    except:
+    except FileNotFoundError:
         sys.exit("File does not exist")
 print(tabulate(menu[1:], headers=menu[0], tablefmt="grid"))
