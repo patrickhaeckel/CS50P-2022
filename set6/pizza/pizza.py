@@ -11,13 +11,13 @@ while True:
             sys.exit("Too few command-line arguments")
 
         elif len(sys.argv) == 2:
-            with open(sys.argv[1], "r") as file:
-                table = csv.reader(file)
-                for row in table:
-                    menu.append(row)
+            if sys.argv[1].endswith(".py"):
+                with open(sys.argv[1], "r") as file:
+                    table = csv.reader(file)
+                    for row in table:
+                        menu.append(row)
+            break
 
-
-        break
     except FileNotFoundError:
-        sys.exit("File does not exist")
+            sys.exit("File does not exist")
 print(tabulate(menu[1:], headers=menu[0], tablefmt="grid"))
