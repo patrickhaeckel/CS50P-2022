@@ -1,9 +1,8 @@
 import sys
 
-while True:
-    n = 0
-    if sys.argv[1].endswith(".py"):
-        print("yes")
+n = 0
+if sys.argv[1].endswith(".py"):
+    print("yes")
     if len(sys.argv) == 2:
 
         with open("linestxt.py", "r") as file:
@@ -13,7 +12,11 @@ while True:
                 n = n
             else:
                 n += 1
-    print(n)
-    break
+
+        print(n)
+else:
+    sys.exit("se slaio")
+
+
 
 
