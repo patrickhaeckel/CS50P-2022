@@ -15,8 +15,10 @@ while True:
                     n += 1
             print(n)
             break
+        else:
+            sys.exit("Too many command-line arguments")
     else:
-        sys.exit()
+        sys.exit("File does not exist")
 
 
 
