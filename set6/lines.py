@@ -2,7 +2,7 @@ import sys
 
 while True:
     n = 0
-    if sys.argv[-3] == ".":
+    if sys.argv[-1] == ".":
         print("yes")
 
         with open("linestxt.py", "r") as file:
