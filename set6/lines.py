@@ -1,8 +1,11 @@
 import sys
 n = 0
 while True:
-    len(sys.argv) == 2
-    
+    try:
+        
+        if len(sys.argv) == 2:
+
+
 
 
     with open("linestxt.py", "r") as file:
