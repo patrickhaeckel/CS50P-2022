@@ -13,4 +13,4 @@ while True:
         break
     except:
         raise
-print(menu)
+print(tabulate(menu, menu[0]))
