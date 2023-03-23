@@ -9,7 +9,8 @@ while True:
                 table = csv.reader(file)
                 for row in table:
                     menu.append(row)
-        print(row)
+
         break
     except:
         raise
+print(table)
