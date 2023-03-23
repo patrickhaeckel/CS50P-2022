@@ -1,6 +1,6 @@
 import sys
 import csv
-import tabulate
+from tabulate import tabulate
 
 menu = []
 while True:
@@ -11,7 +11,8 @@ while True:
                 for row in table:
                     menu.append(row)
 
-        print(tabulate(menu[1:], headers=menu[0]))
+
         break
     except:
         raise
+print(tabulate(menu[1:], headers=menu[0]))
