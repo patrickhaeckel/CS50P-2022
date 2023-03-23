@@ -13,4 +13,4 @@ while True:
         break
     except:
         raise
-print(table)
+print(menu)
