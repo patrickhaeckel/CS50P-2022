@@ -2,9 +2,9 @@ import sys
 
 while True:
     n = 0
-    x = sys.argv[1]
-    if x[-1:-3] == "yp.":
+    if sys.argv[1].endswith(".py"):
         print("yes")
+    if len(sys.argv) == 2:
 
         with open("linestxt.py", "r") as file:
             lines = file.readlines()
