@@ -10,7 +10,7 @@ if len(sys.argv) == 3:
                 info.append(row)
         print(info)
         with open(sys.argv[2], "a") as file:
-            writer = csv.DictWriter(file, fieldnames=["name", "home"])
-            writer.writerow({"name": info, "home": info})
+            writer = csv.DictWriter(file, fieldnames=["name", "home", "\n"])
+            writer.writerow({"name": info, "home": info}, "\n")
 
 
