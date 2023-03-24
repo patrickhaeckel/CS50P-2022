@@ -8,9 +8,9 @@ if len(sys.argv) == 3:
             students = csv.DictReader(file)
             for row in students:
                 info.append(row)
-        print(info)
-        with open(sys.argv[2], "a") as file:
-            writer = csv.DictWriter(file, fieldnames=["name", "home"])
+        
+        with open(sys.argv[2], "a") as file2:
+            writer = csv.DictWriter(file2, fieldnames=["name", "home"])
             writer.writerow({"name": info, "home": info})
 
 
