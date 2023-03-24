@@ -1,5 +1,6 @@
 import sys
 import csv
+from tabulate import tabulate
 
 info = {}
 if len(sys.argv) == 3:
