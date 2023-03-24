@@ -8,7 +8,8 @@ if len(sys.argv) == 3:
             reader = csv.DictReader(file)
             for row in reader:
                 split_name = row["name"].split(",")
-                output.append({"first": split_name[1].lstrip(), "last": split_name[0], "house": split_name[2]})
+                output.append({"first": split_name[1].lstrip(), "last": split_name[0], "house": row["house"]})
+    print(output)
 
 
 
