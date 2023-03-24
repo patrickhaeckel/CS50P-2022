@@ -10,8 +10,9 @@ if len(sys.argv) == 3:
                 split_name = row["name"].split(",")
                 output.append({"first": split_name[1].lstrip(), "last": split_name[0], "house": row["house"]})
         with open(sys.argv[2], "w") as file:
-            writer = csv.DictWriter(file)
-            writer.writerow([])
+            writer = csv.writer(file, fieldnames=["first", "last", "house"])
+            for row in output:
+                writer.writerow(ñ)
 
 
 
