@@ -9,7 +9,7 @@ if len(sys.argv) == 3:
             for row in students:
                 info.append(row)
     print(info)
-        with open(, "a") as file:
+        with open(sys.argv[2], "a") as file:
             writer = csv.DictWriter(file, fieldnames=["name", "home"])
             writer.writerow({"name": name, "home": home})
 
