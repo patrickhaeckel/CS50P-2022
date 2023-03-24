@@ -11,6 +11,6 @@ if len(sys.argv) == 3:
         print(info)
         with open(sys.argv[2], "a") as file:
             writer = csv.DictWriter(file, fieldnames=["name", "home"])
-            writer.writerow({"name": name, "home": home})
+            writer.writerow({"name": info, "home": info})
 
 
