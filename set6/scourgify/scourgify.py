@@ -7,7 +7,7 @@ if len(sys.argv) == 3:
         with open(sys.argv[1], "r") as file:
             students = csv.DictReader(file)
             for row in students:
-                info.append(row)
+            info.append(row)
     print(info)
 
 
