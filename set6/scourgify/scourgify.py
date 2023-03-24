@@ -11,7 +11,7 @@ if len(sys.argv) == 3:
                 output.append({"first": split_name[1].lstrip(), "last": split_name[0], "house": row["house"]})
         with open(sys.argv[2], "w") as file:
             writer = csv.DictWriter(file)
-            writer.writerow()
+            writer.writerow([])
 
 
 
