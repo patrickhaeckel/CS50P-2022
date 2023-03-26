@@ -12,7 +12,7 @@ if len(sys.argv) == 3:
         with open(sys.argv[2], "w") as file:
             writer = csv.DictWriter(file, fieldnames=["first", "last", "house"])
             for row in output:
-                writer.writerow({"first": output[0], "last": output[1], "house": output[2]})
+                writer.writerow({"first": row["first"], "last": row["last"], "house": row["house"]})
         print(output)
 
 
