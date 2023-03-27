@@ -7,8 +7,8 @@ def main():
 
 
 def validate(ip):
-    if re.search("[0-275].\.", ip):
-        print("hola")
+    if re.search("[0-275].\.[0-3]", ip):
+        print(ip)
 
 
 
