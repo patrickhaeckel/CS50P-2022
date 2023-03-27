@@ -6,10 +6,10 @@ def main():
 
 
 def validate(ip):
-    if re.search("[0-9]+\.[0-9]+", ip):
+    if re.search("[0-255].+\.[0-75].+", ip):
         print(ip)
     else:
-        print("false")
+        print("invalid")
 
 
 
