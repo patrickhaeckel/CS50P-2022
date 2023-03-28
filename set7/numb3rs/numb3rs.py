@@ -13,9 +13,9 @@ def validate(ip):
                 if n[2] >= "0" and n[2] < "256":
                     if n[3] >= "0" and n[3] < "256":
                         print("valid")
+            return(True)
         else:
             print("invalid")
-
     else:
         print("invalid")
 
