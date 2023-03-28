@@ -8,10 +8,11 @@ def main():
 def validate(ip):
     if re.search("[0-9]+\.[0-9]+\.[0-9]+\.[0-9]", ip):
         n = ip.split(".")
-        if n[1] >= 0 and n[1] < 256:
-            if n[2] >= 0 and n[2] < 256:
-                if n[3] >= 0 and n[3] < 256:
-        print("valid")
+        if n[0] >= 0 and n[0] < 256:
+            if n[1] >= 0 and n[1] < 256:
+                if n[2] >= 0 and n[2] < 256:
+                    if n[3] >= 0 and n[3] < 256:
+                        print("valid")
         print(n)
     else:
         print("invalid")
