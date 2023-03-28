@@ -13,7 +13,7 @@ def validate(ip):
         else:
             return(False)
     else:
-        print("invalid")
+        return(False)
 
 
 
