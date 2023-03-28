@@ -8,3 +8,9 @@ def test_validate(ip):
     assert validate('256.1.1.1') == (False)
     assert validate('255.256.1.1') == (False)
     assert validate('255.1.1.256') == (False)
+
+
+
+
+if __name__ == "__main__":
+    main()
