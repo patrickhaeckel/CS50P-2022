@@ -1,8 +1,10 @@
-import re
-import sys
+from numb3rs import validate
+def main():
+    print(test_casefold())
 
-email=input("here ")
-if re.search(r"^[a-zA-Z0-9_]+@[a-zA-Z0-9_].+\.edu$", email):
-    print("Valid")
-else:
-    print("Invalid")
+
+def test_validate():
+    assert validate('HELLO') == (0)
+    assert validate('hola') == (20)
+    assert validate('111') == (100)
+    assert validate('$100') == (100)
