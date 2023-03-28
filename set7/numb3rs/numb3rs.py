@@ -8,6 +8,7 @@ def main():
 def validate(ip):
     if re.search("[0-9]+\.[0-9]+\.[0-9]+\.[0-9]", ip):
         n = ip.split(".")
+        if n[1] >= 0
         print("valid")
         print(n)
     else:
