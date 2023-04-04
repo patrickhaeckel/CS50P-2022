@@ -11,4 +11,4 @@ class Car:
         print(f"This {self.make} is driving")
 
     def stop(self):
-        print("This car is stopped")
+        print(f"This {self.color} {self.make} is stopped")
